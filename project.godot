@@ -11,21 +11,20 @@ config_version=5
 [application]
 
 config/name="non-euclidean"
-run/main_scene="uid://pwrmfeqq3e27"
+run/main_scene="uid://cwrcfbdowr26l"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=640
-window/size/viewport_height=360
-window/size/mode=3
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 window/stretch/mode="viewport"
 window/vsync/vsync_mode=0
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/func_godot/plugin.cfg", "res://addons/portals/plugin.cfg")
+enabled=PackedStringArray("res://addons/func_godot/plugin.cfg", "res://addons/godot_super-wakatime/plugin.cfg", "res://addons/portals/plugin.cfg")
 
 [input]
 
