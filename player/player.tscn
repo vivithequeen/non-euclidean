@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://bbql2d76ikoxt"]
+
+[ext_resource type="Script" uid="uid://djg64ejcfus52" path="res://Cam3DControllerComponent(1).gd" id="1_oul6g"]
+[ext_resource type="Script" uid="uid://cq5jjo5owvab4" path="res://player/player.gd" id="1_rkbax"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rkbax"]
+
+[node name="player" type="CharacterBody3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
+collision_layer = 32769
+collision_mask = 32769
+script = ExtResource("1_rkbax")
+
+[node name="Cam3DControllerComponent" type="Node" parent="." node_paths=PackedStringArray("actor", "camera")]
+script = ExtResource("1_oul6g")
+actor = NodePath("..")
+camera = NodePath("../Camera3D")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_rkbax")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="Label" type="Label" parent="."]
+visible = false
+offset_right = 240.0
+offset_bottom = 109.0
+text = "fps:"
