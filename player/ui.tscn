@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://be3trfu5035vj"]
+
+[ext_resource type="Texture2D" uid="uid://bv51kwvvo4cak" path="res://player/crosshair.png" id="1_cydly"]
+
+[node name="ui" type="Control"]
+layout_mode = 3
+anchor_right = 0.333
+anchor_bottom = 0.333
+offset_right = 0.640015
+offset_bottom = 0.359985
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+custom_minimum_size = Vector2(640, 360)
+layout_mode = 0
+offset_right = 640.0
+offset_bottom = 360.0
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer"]
+layout_mode = 2
+texture = ExtResource("1_cydly")

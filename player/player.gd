@@ -4,6 +4,9 @@ extends CharacterBody3D
 const SPEED = 5.0
 const JUMP_VELOCITY = 3.5
 
+@export var cam3DControllerComponent : Cam3DControllerComponent
+@export var fovControllerComponent : FovControllerComponent
+@export var crouch3DControllerComponent : Crouch3DControllerComponent
 
 func _physics_process(delta: float) -> void:
 	$Label.text = str(Engine.get_frames_per_second())
@@ -25,5 +28,7 @@ func _physics_process(delta: float) -> void:
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
-
+	cam3DControllerComponent.camera_sway(input_dir)
+	fovControllerComponent.fov(input_dir)
+	crouch3DControllerComponent.crouch(delta,input_dir)
 	move_and_slide()
