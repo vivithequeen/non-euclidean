@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bbql2d76ikoxt"]
+[gd_scene load_steps=9 format=3 uid="uid://bbql2d76ikoxt"]
 
 [ext_resource type="Script" uid="uid://djg64ejcfus52" path="res://player/Cam3DControllerComponent.gd" id="1_oul6g"]
 [ext_resource type="Script" uid="uid://cq5jjo5owvab4" path="res://player/player.gd" id="1_rkbax"]
@@ -6,39 +6,31 @@
 [ext_resource type="Script" uid="uid://cscwk0fpp7vcu" path="res://player/FovControllerComponent.gd" id="3_yw30f"]
 [ext_resource type="PackedScene" uid="uid://be3trfu5035vj" path="res://player/ui.tscn" id="5_g6k8r"]
 [ext_resource type="Script" uid="uid://dj4eujfdlgafj" path="res://player/Headbob3DControllerComponent.gd" id="5_qjkh3"]
+[ext_resource type="Script" uid="uid://e4wym8ry0rho" path="res://player/Sprint3DControllerComponent.gd" id="6_boad6"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rkbax"]
 
-[sub_resource type="Animation" id="Animation_g6k8r"]
-resource_name = "head_bob"
-length = 2.0
-
-[sub_resource type="Animation" id="Animation_boad6"]
-length = 0.001
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_rgyib"]
-_data = {
-&"RESET": SubResource("Animation_boad6"),
-&"head_bob": SubResource("Animation_g6k8r")
-}
-
-[node name="player" type="CharacterBody3D" node_paths=PackedStringArray("cam3DControllerComponent", "fovControllerComponent", "crouch3DControllerComponent")]
+[node name="player" type="CharacterBody3D" node_paths=PackedStringArray("cam3DControllerComponent", "fovControllerComponent", "crouch3DControllerComponent", "sprint3DControllerComponent")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
-collision_layer = 32769
+collision_layer = 3
 collision_mask = 32769
+floor_max_angle = 1.49226
 script = ExtResource("1_rkbax")
 cam3DControllerComponent = NodePath("Cam3DControllerComponent")
 fovControllerComponent = NodePath("FovControllerComponent")
 crouch3DControllerComponent = NodePath("Crouch3DControllerComponent")
+sprint3DControllerComponent = NodePath("Sprint3DControllerComponent")
 
-[node name="Cam3DControllerComponent" type="Node" parent="." node_paths=PackedStringArray("actor", "camera")]
+[node name="Cam3DControllerComponent" type="Node" parent="." node_paths=PackedStringArray("sprint3DControllerComponent", "actor", "camera")]
 script = ExtResource("1_oul6g")
+sprint3DControllerComponent = NodePath("../Sprint3DControllerComponent")
 actor = NodePath("..")
 camera = NodePath("../Camera3D")
 
-[node name="FovControllerComponent" type="Node" parent="." node_paths=PackedStringArray("camera")]
+[node name="FovControllerComponent" type="Node" parent="." node_paths=PackedStringArray("camera", "sprint3DControllerComponent")]
 script = ExtResource("3_yw30f")
 camera = NodePath("../Camera3D")
+sprint3DControllerComponent = NodePath("../Sprint3DControllerComponent")
 
 [node name="Crouch3DControllerComponent" type="Node" parent="." node_paths=PackedStringArray("crouchcast", "characterBody", "camera", "collider", "headbob3DControllerComponent")]
 script = ExtResource("3_g1dw6")
@@ -49,6 +41,15 @@ collider = NodePath("../CollisionShape3D")
 headbob3DControllerComponent = NodePath("../Headbob3DControllerComponent")
 metadata/_custom_type_script = "uid://cqnkol0vmdqhi"
 
+[node name="Headbob3DControllerComponent" type="Node" parent="." node_paths=PackedStringArray("sprint3DControllerComponent")]
+script = ExtResource("5_qjkh3")
+sprint3DControllerComponent = NodePath("../Sprint3DControllerComponent")
+
+[node name="Sprint3DControllerComponent" type="Node" parent="." node_paths=PackedStringArray("crouch3DControllerComponent")]
+script = ExtResource("6_boad6")
+crouch3DControllerComponent = NodePath("../Crouch3DControllerComponent")
+metadata/_custom_type_script = "uid://e4wym8ry0rho"
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_rkbax")
 
@@ -57,20 +58,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 
 [node name="ui" parent="Camera3D" instance=ExtResource("5_g6k8r")]
 
-[node name="Label" type="Label" parent="."]
-visible = false
-offset_right = 28.0
-offset_bottom = 23.0
-scale = Vector2(3.96, 3.96)
-text = "fps:"
+[node name="SpotLight3D" type="SpotLight3D" parent="Camera3D"]
+light_energy = 3.184
+spot_range = 9.337
 
 [node name="crouch_cast" type="RayCast3D" parent="."]
 target_position = Vector3(0, 1, 0)
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-&"": SubResource("AnimationLibrary_rgyib")
-}
-
-[node name="Headbob3DControllerComponent" type="Node" parent="."]
-script = ExtResource("5_qjkh3")

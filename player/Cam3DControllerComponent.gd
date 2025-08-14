@@ -1,7 +1,7 @@
 extends Node
 class_name Cam3DControllerComponent
 
-
+@export var sprint3DControllerComponent : Sprint3DControllerComponent
 const LOOKSENSE: float = 0.0025 *4
 
 ## CharacterBody3D that the controller is acting on
@@ -33,8 +33,8 @@ func _input(event):
 		debounce = max_camera_debounce
 	
 	if event is InputEventMouseMotion and not paused:
-		actor.rotate_y(-event.relative.x * LOOKSENSE)
-		camera.rotate_x(-event.relative.y * LOOKSENSE)
+		actor.rotation.y+=(-event.relative.x * LOOKSENSE)
+		camera.rotation.x +=(-event.relative.y * LOOKSENSE)
 		camera.rotation.x = clamp(camera.rotation.x, -PI/2, PI/2)
 
 
@@ -53,5 +53,5 @@ func update_mouse_mode():
 
 func camera_sway(input_dir):
 	var tween = get_tree().create_tween()
-	tween.tween_property(camera, "rotation:z", ((deg_to_rad(-2.5) * input_dir.x) if input_dir else 0), 0.2)
+	tween.tween_property(camera, "rotation:z", ((deg_to_rad(-5.5 if sprint3DControllerComponent.is_sprint else -2.5) * input_dir.x) if input_dir else 0), 0.2)
 	tween.set_parallel()

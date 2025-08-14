@@ -7,12 +7,12 @@ class_name Crouch3DControllerComponent
 @export var collider : CollisionShape3D
 
 @export var headbob3DControllerComponent : Headbob3DControllerComponent
-var is_crouching = true
+var is_crouching := true
 
 
 
 
-func crouch(delta, input_dir):
+func crouch(delta, input_dir)->bool:
 	is_crouching = Input.is_action_pressed("crouch") and characterBody.is_on_floor();
 	if crouchcast.is_colliding() and !is_crouching:
 		is_crouching = true
@@ -24,3 +24,4 @@ func crouch(delta, input_dir):
 	var headbob_position = headbob3DControllerComponent.headbob(delta, input_dir);
 	tween.tween_property(camera, "position:y", (0 if is_crouching else 1) + headbob_position.y, 0.09)
 	camera.position.x = headbob_position.x
+	return is_crouching

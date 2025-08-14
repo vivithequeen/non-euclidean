@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://be3trfu5035vj"]
+[gd_scene load_steps=3 format=3 uid="uid://be3trfu5035vj"]
 
 [ext_resource type="Texture2D" uid="uid://bv51kwvvo4cak" path="res://player/crosshair.png" id="1_cydly"]
+[ext_resource type="FontFile" uid="uid://cr4faonkuqgbh" path="res://resources/fonts/Tiny5-Regular.ttf" id="2_2q84c"]
 
 [node name="ui" type="Control"]
 layout_mode = 3
@@ -20,3 +21,10 @@ offset_bottom = 360.0
 [node name="TextureRect" type="TextureRect" parent="CenterContainer"]
 layout_mode = 2
 texture = ExtResource("1_cydly")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 28.0
+offset_bottom = 23.0
+scale = Vector2(0.5, 0.5)
+theme_override_fonts/font = ExtResource("2_2q84c")
+text = "fps:"

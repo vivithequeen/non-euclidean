@@ -1,8 +1,11 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://8y26qpyxo2g8"]
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://8y26qpyxo2g8"]
 
 [ext_resource type="Texture2D" uid="uid://cv4bjyk262jvh" path="res://textures/floor_tile.png" id="1_m3lcu"]
+[ext_resource type="Texture2D" uid="uid://ulokgub0kyqq" path="res://textures/floor_tile_normal.png" id="2_t3g68"]
 
 [resource]
 albedo_texture = ExtResource("1_m3lcu")
 metallic_specular = 0.0
+heightmap_scale = 5.952
+heightmap_texture = ExtResource("2_t3g68")
 texture_filter = 2

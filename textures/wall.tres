@@ -6,10 +6,11 @@
 [resource]
 albedo_texture = ExtResource("1_2fyv5")
 metallic_specular = 0.0
+normal_scale = 16.0
 normal_texture = ExtResource("2_1mm6n")
-heightmap_scale = -16.0
+heightmap_scale = 4.0
 heightmap_deep_parallax = true
-heightmap_min_layers = 8
-heightmap_max_layers = 32
+heightmap_min_layers = 1
+heightmap_max_layers = 64
 heightmap_texture = ExtResource("2_1mm6n")
 texture_filter = 2
