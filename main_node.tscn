@@ -16,6 +16,6 @@ size = Vector2i(640, 360)
 render_target_update_mode = 4
 
 [node name="player" parent="SubViewportContainer/SubViewport" instance=ExtResource("2_dhalm")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 3, 1, 0)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4, 1, 0)
 
 [node name="Level1" parent="SubViewportContainer/SubViewport" instance=ExtResource("2_bxfy6")]

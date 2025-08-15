@@ -12,7 +12,9 @@ classname = "light"
 description = "wow"
 func_godot_internal = false
 base_classes = Array[Resource]([])
-class_properties = {}
+class_properties = {
+"rot": Vector3(-90, 0, 0)
+}
 class_property_descriptions = {}
 auto_apply_to_matching_node_properties = false
 meta_properties = {

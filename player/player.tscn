@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://bbql2d76ikoxt"]
+[gd_scene load_steps=10 format=3 uid="uid://bbql2d76ikoxt"]
 
 [ext_resource type="Script" uid="uid://djg64ejcfus52" path="res://player/Cam3DControllerComponent.gd" id="1_oul6g"]
 [ext_resource type="Script" uid="uid://cq5jjo5owvab4" path="res://player/player.gd" id="1_rkbax"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://be3trfu5035vj" path="res://player/ui.tscn" id="5_g6k8r"]
 [ext_resource type="Script" uid="uid://dj4eujfdlgafj" path="res://player/Headbob3DControllerComponent.gd" id="5_qjkh3"]
 [ext_resource type="Script" uid="uid://e4wym8ry0rho" path="res://player/Sprint3DControllerComponent.gd" id="6_boad6"]
+[ext_resource type="Script" uid="uid://qrtlq81cyf5o" path="res://player/InteractControllerComponent .gd" id="7_rgyib"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rkbax"]
 
@@ -50,6 +51,11 @@ script = ExtResource("6_boad6")
 crouch3DControllerComponent = NodePath("../Crouch3DControllerComponent")
 metadata/_custom_type_script = "uid://e4wym8ry0rho"
 
+[node name="InteractControllerComponent" type="Node" parent="." node_paths=PackedStringArray("interact_cast", "tooltip")]
+script = ExtResource("7_rgyib")
+interact_cast = NodePath("../Camera3D/interact_cast")
+tooltip = NodePath("../Camera3D/ui/CenterContainer/Label")
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_rkbax")
 
@@ -63,8 +69,10 @@ visible = false
 light_energy = 3.184
 spot_range = 9.337
 
-[node name="RayCast3D" type="RayCast3D" parent="Camera3D"]
-target_position = Vector3(0, 0, -2)
+[node name="interact_cast" type="RayCast3D" parent="Camera3D"]
+target_position = Vector3(0, 0, -2.5)
 
 [node name="crouch_cast" type="RayCast3D" parent="."]
 target_position = Vector3(0, 1, 0)
+
+[editable path="Camera3D/ui"]
