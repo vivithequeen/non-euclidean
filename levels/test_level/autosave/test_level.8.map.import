@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://unshuhejnquf"
+path="res://.godot/imported/test_level.8.map-a941d1c1efd7c71542d95daf091c676f.tres"
+
+[deps]
+
+source_file="res://levels/test_level/autosave/test_level.8.map"
+dest_files=["res://.godot/imported/test_level.8.map-a941d1c1efd7c71542d95daf091c676f.tres"]
+
+[params]
+

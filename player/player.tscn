@@ -59,8 +59,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 [node name="ui" parent="Camera3D" instance=ExtResource("5_g6k8r")]
 
 [node name="SpotLight3D" type="SpotLight3D" parent="Camera3D"]
+visible = false
 light_energy = 3.184
 spot_range = 9.337
+
+[node name="RayCast3D" type="RayCast3D" parent="Camera3D"]
+target_position = Vector3(0, 0, -2)
 
 [node name="crouch_cast" type="RayCast3D" parent="."]
 target_position = Vector3(0, 1, 0)

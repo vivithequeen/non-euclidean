@@ -8,4 +8,4 @@ albedo_texture = ExtResource("1_m3lcu")
 metallic_specular = 0.0
 heightmap_scale = 5.952
 heightmap_texture = ExtResource("2_t3g68")
-texture_filter = 2
+texture_filter = 0

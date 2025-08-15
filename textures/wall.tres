@@ -1,16 +1,12 @@
 [gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://dwssfk5ksiccp"]
 
 [ext_resource type="Texture2D" uid="uid://daglfwcaq11mu" path="res://textures/wall.png" id="1_2fyv5"]
-[ext_resource type="Texture2D" uid="uid://c3d71ohd147ak" path="res://textures/wall_normal.png" id="2_1mm6n"]
+[ext_resource type="Texture2D" uid="uid://da1kyjoib5qwx" path="res://textures/wall_specular.png" id="3_seup0"]
 
 [resource]
 albedo_texture = ExtResource("1_2fyv5")
 metallic_specular = 0.0
 normal_scale = 16.0
-normal_texture = ExtResource("2_1mm6n")
-heightmap_scale = 4.0
-heightmap_deep_parallax = true
-heightmap_min_layers = 1
-heightmap_max_layers = 64
-heightmap_texture = ExtResource("2_1mm6n")
+normal_texture = ExtResource("3_seup0")
+heightmap_texture = ExtResource("3_seup0")
 texture_filter = 2
