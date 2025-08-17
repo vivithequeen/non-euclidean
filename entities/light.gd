@@ -16,6 +16,7 @@ func _physics_process(delta: float) -> void:
 			flash_timer += delta
 
 func _ready() -> void:
+	print(rotation)
 	rotation.x = deg_to_rad(func_godot_properties["rot"].x)
 	rotation.y = deg_to_rad(func_godot_properties["rot"].y)
 	rotation.z = deg_to_rad(func_godot_properties["rot"].z)

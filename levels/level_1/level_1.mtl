@@ -1,0 +1,18 @@
+newmtl floor_tile
+map_Kd textures/floor_tile.png
+
+newmtl floor_tile2
+map_Kd textures/floor_tile2.png
+
+newmtl metal
+map_Kd textures/metal.png
+
+newmtl piller
+map_Kd textures/piller.png
+
+newmtl special/clip
+map_Kd textures/special/clip.png
+
+newmtl wall
+map_Kd textures/wall.png
+

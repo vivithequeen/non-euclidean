@@ -3,7 +3,7 @@ extends StaticBody3D
 
 var height : float = 3.5;
 var start_pos : Vector3
-
+@export var inverse : bool =false
 
 
 var is_open : bool = false
@@ -45,14 +45,14 @@ func open_door():
 	if(!is_open):
 		is_open = true;
 		var tween = get_tree().create_tween()
-		var end = position.y - height
+		var end = position.y - height * (-1 if inverse else 1)
 		tween.tween_property(self,"position:y",end,1.4)
 
 func close_door():
 	if(is_open):
 		is_open = false;
 		var tween = get_tree().create_tween()
-		var end = position.y + height
+		var end = position.y + height * (-1 if inverse else 1)
 		tween.tween_property(self,"position:y",end,1.4)
 
 func interact():
