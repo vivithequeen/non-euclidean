@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://chhgh144encov"]
+
+[ext_resource type="Script" uid="uid://dkp1wu4d014wn" path="res://entities/object.gd" id="1_ls4fa"]
+[ext_resource type="Texture2D" uid="uid://b6q632r6fqwty" path="res://textures/floor_tile2.png" id="2_ayagq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sh8mm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2vq68"]
+albedo_texture = ExtResource("2_ayagq")
+uv1_triplanar = true
+texture_filter = 0
+
+[sub_resource type="BoxMesh" id="BoxMesh_2vq68"]
+material = SubResource("StandardMaterial3D_2vq68")
+
+[node name="box" type="RigidBody3D"]
+collision_layer = 10
+collision_mask = 32769
+script = ExtResource("1_ls4fa")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_sh8mm")
+disabled = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_2vq68")

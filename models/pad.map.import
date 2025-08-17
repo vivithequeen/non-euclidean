@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://dliqchi0ifwtv"
+path="res://.godot/imported/pad.map-f5655eaa7e8757e47e4585eda0a19e00.tres"
+
+[deps]
+
+source_file="res://models/pad.map"
+dest_files=["res://.godot/imported/pad.map-f5655eaa7e8757e47e4585eda0a19e00.tres"]
+
+[params]
+
