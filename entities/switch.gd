@@ -6,7 +6,7 @@ var shader : Shader= load("res://resources/shaders/highlight.gdshader")
 @export var raycast_active : bool = true
 @export var animationPlayer : AnimationPlayer
 
-@export var activate_objects : Array[Node3D]
+@export var activate_objects : Array[Node]
 
 
 var current : bool = false;

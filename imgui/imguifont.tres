@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ImGuiFont" load_steps=3 format=3 uid="uid://b7ah8kkskvf4y"]
+
+[ext_resource type="FontFile" uid="uid://cr4faonkuqgbh" path="res://resources/fonts/Tiny5-Regular.ttf" id="1_mufc2"]
+[ext_resource type="Script" uid="uid://dwwy803fvciln" path="res://addons/imgui-godot/scripts/ImGuiFont.gd" id="1_xce4l"]
+
+[resource]
+script = ExtResource("1_xce4l")
+FontData = ExtResource("1_mufc2")
+FontSize = 32
+Merge = true
+metadata/_custom_type_script = "uid://dwwy803fvciln"

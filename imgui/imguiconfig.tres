@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ImGuiConfig" load_steps=3 format=3 uid="uid://cboomot7pdsl8"]
+
+[ext_resource type="Resource" uid="uid://b7ah8kkskvf4y" path="res://imgui/imguifont.tres" id="1_jdph6"]
+[ext_resource type="Script" uid="uid://cye00ille27ii" path="res://addons/imgui-godot/scripts/ImGuiConfig.gd" id="1_labo0"]
+
+[resource]
+script = ExtResource("1_labo0")
+Scale = 1.0
+IniFilename = "user://imgui.ini"
+Renderer = "Canvas"
+Layer = 128
+AddDefaultFont = false
+Fonts = [ExtResource("1_jdph6")]
+metadata/_custom_type_script = "uid://cye00ille27ii"
