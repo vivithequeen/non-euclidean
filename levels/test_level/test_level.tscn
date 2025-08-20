@@ -2,10 +2,10 @@
 
 [ext_resource type="Script" uid="uid://cowlilu6akgik" path="res://addons/func_godot/src/map/func_godot_map.gd" id="1_h2yge"]
 [ext_resource type="Resource" uid="uid://bkhxcqsquw1yg" path="res://addons/func_godot/func_godot_default_map_settings.tres" id="2_1bvp3"]
-[ext_resource type="Material" uid="uid://bwh8kif1ceef3" path="res://textures/special/red.tres" id="4_dg77c"]
+[ext_resource type="Material" uid="uid://bwh8kif1ceef3" path="res://textures/debug/red.tres" id="4_dg77c"]
 [ext_resource type="Material" uid="uid://8y26qpyxo2g8" path="res://textures/floor_tile.tres" id="4_efxa6"]
 [ext_resource type="Material" uid="uid://v6pan7kxew8o" path="res://textures/ceiling.tres" id="4_vivmo"]
-[ext_resource type="Material" uid="uid://d2edijqay10oo" path="res://textures/special/gray.tres" id="6_ycdy4"]
+[ext_resource type="Material" uid="uid://d2edijqay10oo" path="res://textures/debug/gray.tres" id="6_ycdy4"]
 [ext_resource type="Material" uid="uid://cdsp347urn5sd" path="res://textures/wall.tres" id="7_ycdy4"]
 [ext_resource type="Script" uid="uid://cw1r4c1d7beyv" path="res://addons/portals/scripts/portal_3d.gd" id="8_4c57u"]
 [ext_resource type="Material" uid="uid://dcfkcyddxkglf" path="res://addons/portals/materials/editor-preview-portal-material.tres" id="9_efxa6"]

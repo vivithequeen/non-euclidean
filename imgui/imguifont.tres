@@ -6,6 +6,6 @@
 [resource]
 script = ExtResource("1_xce4l")
 FontData = ExtResource("1_mufc2")
-FontSize = 32
+FontSize = 16
 Merge = true
 metadata/_custom_type_script = "uid://dwwy803fvciln"

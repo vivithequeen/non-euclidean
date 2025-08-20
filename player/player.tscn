@@ -70,7 +70,7 @@ light_energy = 3.184
 spot_range = 9.337
 
 [node name="interact_cast" type="RayCast3D" parent="Camera3D"]
-target_position = Vector3(0, 0, -2.5)
+target_position = Vector3(0, 0, -2.245)
 
 [node name="crouch_cast" type="RayCast3D" parent="."]
 target_position = Vector3(0, 1, 0)

@@ -222,7 +222,7 @@ script = ExtResource("1_ouphh")
 animationPlayer = NodePath("AnimationPlayer")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 0, 0, 0)
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_2i5xl")
 
 [node name="Lever_Base" type="MeshInstance3D" parent="."]
@@ -245,3 +245,7 @@ transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 0, -0.234684, -0.027602
 material_overlay = SubResource("ShaderMaterial_0b2yu")
 mesh = SubResource("ArrayMesh_nldlc")
 skeleton = NodePath("")
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

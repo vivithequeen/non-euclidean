@@ -11,7 +11,7 @@ const JUMP_VELOCITY = 3.5
 func _ready():
 	randomize()
 func _physics_process(delta: float) -> void:
-	$Camera3D/ui/Label.text = "fps: " + str(Engine.get_frames_per_second())
+	
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
