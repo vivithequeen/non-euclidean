@@ -1,4 +1,4 @@
-[gd_scene load_steps=444 format=4 uid="uid://d4eurqqsm3lb4"]
+[gd_scene load_steps=443 format=4 uid="uid://d4eurqqsm3lb4"]
 
 [ext_resource type="Script" uid="uid://bcm8xqkmn1tvq" path="res://levels/level_1/level_1.gd" id="1_1iwl3"]
 [ext_resource type="LightmapGIData" uid="uid://v8g8a7qesx1k" path="res://levels/test_level/main.lmbake" id="1_mxc8w"]
@@ -13,7 +13,6 @@
 [ext_resource type="Material" uid="uid://b7caa3tcghs0s" path="res://textures/metal.tres" id="9_owtu7"]
 [ext_resource type="PackedScene" uid="uid://b4vse2yculniy" path="res://entities/door.tscn" id="10_la5aw"]
 [ext_resource type="Material" uid="uid://bf3lkfqlevryi" path="res://textures/black.tres" id="10_lbtho"]
-[ext_resource type="PackedScene" uid="uid://bbql2d76ikoxt" path="res://player/player.tscn" id="12_1iwl3"]
 [ext_resource type="Script" uid="uid://cw1r4c1d7beyv" path="res://addons/portals/scripts/portal_3d.gd" id="12_7rikf"]
 [ext_resource type="Material" uid="uid://dcfkcyddxkglf" path="res://addons/portals/materials/editor-preview-portal-material.tres" id="13_ov0dm"]
 [ext_resource type="Script" uid="uid://bxcel82b180o3" path="res://addons/portals/scripts/portal_boxmesh.gd" id="14_lwxes"]
@@ -2972,7 +2971,7 @@ func_godot_properties = {
 }
 
 [node name="entity_15_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 19.5, -8, -26.5)
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 19.5, -8, -26.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3062,7 +3061,7 @@ func_godot_properties = {
 }
 
 [node name="entity_24_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 11.5, -8, -26.5)
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 11.5, -8, -26.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3071,10 +3070,7 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_25_Player_Spawn" parent="FuncGodotMap" instance=ExtResource("12_1iwl3")]
-transform = Transform3D(1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 6.75, -8.5, -6.5)
-
-[node name="entity_26_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_25_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 5.5, -5.5, -15)
 func_godot_properties = {
 "classname": "light",
@@ -3084,7 +3080,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_27_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_26_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 5.5, -5.5, -10)
 func_godot_properties = {
 "classname": "light",
@@ -3094,7 +3090,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_28_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_27_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -25.5, 3, -19)
 func_godot_properties = {
 "classname": "light",
@@ -3104,7 +3100,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_29_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_28_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -27.5, 3, -14.5)
 func_godot_properties = {
 "classname": "light",
@@ -3114,7 +3110,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_30_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_29_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -27.5, 3, -10.5)
 func_godot_properties = {
 "classname": "light",
@@ -3124,7 +3120,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_31_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_30_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 5.5, -5.5, -17.5)
 func_godot_properties = {
 "classname": "light",
@@ -3134,7 +3130,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_32_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_31_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0.5, -6.25, -12.5)
 func_godot_properties = {
 "classname": "light",
@@ -3144,7 +3140,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_33_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_32_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 17, -6.5, -8.5)
 func_godot_properties = {
 "classname": "light",
@@ -3154,8 +3150,8 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_34_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 6.5, -9, -25)
+[node name="entity_33_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 6.5, -9, -25)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3164,8 +3160,8 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_35_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 3.5, -9, -28)
+[node name="entity_34_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 3.5, -9, -28)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3174,8 +3170,8 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_36_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 6.5, -9, -28)
+[node name="entity_35_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 6.5, -9, -28)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3184,8 +3180,8 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_37_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 5, -9, -31.5)
+[node name="entity_36_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 5, -9, -31.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3194,8 +3190,8 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_38_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 3.5, -9, -25)
+[node name="entity_37_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 3.5, -9, -25)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3204,8 +3200,8 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_39_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -13.25, -8.25, -12.5)
+[node name="entity_38_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -13.25, -8.25, -12.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3214,8 +3210,8 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_40_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, -8.25, -26.5)
+[node name="entity_39_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, -8.25, -26.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3224,7 +3220,7 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_41_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_40_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 5.5, 3, -7.25)
 func_godot_properties = {
 "classname": "light",
@@ -3234,7 +3230,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_42_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_41_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 17, -6.5, -8.5)
 func_godot_properties = {
 "classname": "light",
@@ -3244,7 +3240,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_43_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_42_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 17, -6.5, -4.5)
 func_godot_properties = {
 "classname": "light",
@@ -3254,7 +3250,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_44_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_43_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 21, -6.5, -4.5)
 func_godot_properties = {
 "classname": "light",
@@ -3264,7 +3260,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_45_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_44_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 21, -6.5, -8.5)
 func_godot_properties = {
 "classname": "light",
@@ -3274,7 +3270,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_46_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_45_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 17.25, -10.5, -8.25)
 func_godot_properties = {
 "classname": "light",
@@ -3284,7 +3280,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_47_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_46_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 20.75, -11.5, -8.25)
 func_godot_properties = {
 "classname": "light",
@@ -3294,7 +3290,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_48_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_47_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 20.75, -12.5, -4.75)
 func_godot_properties = {
 "classname": "light",
@@ -3304,7 +3300,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_49_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_48_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 10, -6.5, -6.5)
 func_godot_properties = {
 "classname": "light",
@@ -3314,7 +3310,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_50_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_49_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 14.5, -6.5, -6.5)
 func_godot_properties = {
 "classname": "light",
@@ -3324,7 +3320,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_51_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_50_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -16.75, 3, 0)
 func_godot_properties = {
 "classname": "light",
@@ -3334,7 +3330,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_52_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_51_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -23.5, 3, -10.5)
 func_godot_properties = {
 "classname": "light",
@@ -3344,7 +3340,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_53_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_52_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -30, 3, -12.5)
 func_godot_properties = {
 "classname": "light",
@@ -3354,7 +3350,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_54_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_53_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -23.5, 3, -14.5)
 func_godot_properties = {
 "classname": "light",
@@ -3364,7 +3360,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_55_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_54_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -25.5, 3, -5.5)
 func_godot_properties = {
 "classname": "light",
@@ -3374,7 +3370,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_56_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_55_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -19.75, 3, 0)
 func_godot_properties = {
 "classname": "light",
@@ -3384,7 +3380,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_57_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_56_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -15.25, 3, -1)
 func_godot_properties = {
 "classname": "light",
@@ -3394,7 +3390,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_58_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_57_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -15.25, 3, 1)
 func_godot_properties = {
 "classname": "light",
@@ -3404,8 +3400,8 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_59_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -5.75, -8.75, -31.5)
+[node name="entity_58_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -5.75, -8.75, -31.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3414,7 +3410,7 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_60_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_59_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 21, -6.5, -8.5)
 func_godot_properties = {
 "classname": "light",
@@ -3424,7 +3420,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_61_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_60_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 21, -6.5, -4.5)
 func_godot_properties = {
 "classname": "light",
@@ -3434,7 +3430,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_62_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_61_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 20.75, -11.5, -8.25)
 func_godot_properties = {
 "classname": "light",
@@ -3444,7 +3440,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_63_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_62_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 17.25, -10.5, -8.25)
 func_godot_properties = {
 "classname": "light",
@@ -3454,7 +3450,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_64_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_63_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 17.25, -13.5, -4.75)
 func_godot_properties = {
 "classname": "light",
@@ -3464,8 +3460,8 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_65_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -13.75, -6.25, -26.5)
+[node name="entity_64_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -13.75, -6.25, -26.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3474,7 +3470,7 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_66_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_65_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 20.75, -12.5, -4.75)
 func_godot_properties = {
 "classname": "light",
@@ -3484,7 +3480,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_67_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_66_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -5.75, -5.75, -17.5)
 func_godot_properties = {
 "classname": "light",
@@ -3494,7 +3490,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_68_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_67_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -6, -6.25, -12.5)
 func_godot_properties = {
 "classname": "light",
@@ -3504,8 +3500,8 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_69_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -13.25, -8.25, -17.5)
+[node name="entity_68_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -13.25, -8.25, -17.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3514,8 +3510,8 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_70_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -13.75, -8.25, -31.5)
+[node name="entity_69_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -13.75, -8.25, -31.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3524,8 +3520,8 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_71_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 5, -8, -20.5)
+[node name="entity_70_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 5, -8, -20.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3534,8 +3530,8 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_72_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 8.25, -8, -20.5)
+[node name="entity_71_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 8.25, -8, -20.5)
 func_godot_properties = {
 "classname": "light",
 "light": 2.0,
@@ -3544,7 +3540,7 @@ func_godot_properties = {
 "rot": Vector3(90, 0, 0)
 }
 
-[node name="entity_73_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_72_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 5.5, -6.5, -6.5)
 func_godot_properties = {
 "classname": "light",
@@ -3554,7 +3550,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_74_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_73_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 17.25, -13.5, -4.75)
 func_godot_properties = {
 "classname": "light",
@@ -3564,7 +3560,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_75_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_74_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 14, -13.75, -6.5)
 func_godot_properties = {
 "classname": "light",
@@ -3574,7 +3570,7 @@ func_godot_properties = {
 "rot": Vector3(-90, 0, 0)
 }
 
-[node name="entity_76_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
+[node name="entity_75_light" parent="FuncGodotMap" instance=ExtResource("7_1ow6f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 11, -13.75, -6.5)
 func_godot_properties = {
 "classname": "light",

@@ -17,8 +17,8 @@ func _physics_process(delta: float) -> void:
 
 func _ready() -> void:
 	light_energy = func_godot_properties["light"]
-	#if(func_godot_properties["range"] != 6.5):
-	#	spot_angle = func_godot_properties["range"]
+
+	spot_range = func_godot_properties["range"]
 	rotation.x = deg_to_rad(func_godot_properties["rot"].x)
 	rotation.y = deg_to_rad(func_godot_properties["rot"].y)
 	rotation.z = deg_to_rad(func_godot_properties["rot"].z)

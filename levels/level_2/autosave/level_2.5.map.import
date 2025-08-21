@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://cgyfermicsvs2"
+path="res://.godot/imported/level_2.5.map-97b15df1d133bd7fd1709108020abcfa.tres"
+
+[deps]
+
+source_file="res://levels/level_2/autosave/level_2.5.map"
+dest_files=["res://.godot/imported/level_2.5.map-97b15df1d133bd7fd1709108020abcfa.tres"]
+
+[params]
+

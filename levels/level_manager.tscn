@@ -14,7 +14,7 @@ ssil_enabled = true
 sdfgi_use_occlusion = true
 glow_enabled = true
 volumetric_fog_enabled = true
-volumetric_fog_density = 0.35
+volumetric_fog_density = 0.15
 volumetric_fog_albedo = Color(0.462998, 0.457138, 0.454621, 1)
 adjustment_enabled = true
 adjustment_brightness = 1.2
@@ -25,7 +25,7 @@ adjustment_saturation = 0.92
 [node name="Level1" parent="." instance=ExtResource("1_hvuti")]
 
 [node name="Level2" parent="." instance=ExtResource("2_6tvrh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -16.5, -6.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27, -16.5, -6.5)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_6tvrh")

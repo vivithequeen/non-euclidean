@@ -6,7 +6,7 @@ var fullbright_toggle = [0];
 var draw_mode_open = [true]
 
 var draw_mode_current = []
-var draw_mode_options = ["disabled", "unshaded", "lighting","overdraw","wireframe","normal"]
+var draw_mode_options = ["default", "unshaded", "lighting","overdraw","wireframe","normal"]
 @export var level_viewport: SubViewport
 func _process(delta):
 	
@@ -23,11 +23,12 @@ func _process(delta):
 
 func draw_mode():
 	ImGui.Begin("Draw Mode", draw_mode_open)
-	print(draw_mode_current)
+
 	if(ImGui.Combo("Draw Modes", draw_mode_current,draw_mode_options)):
 		
 		level_viewport.debug_draw = draw_mode_current[0]
 	ImGui.End()
+
 func mainMenuBar():
 	ImGui.BeginMainMenuBar();
 	ImGui.Text("fps: " + str(Engine.get_frames_per_second()))

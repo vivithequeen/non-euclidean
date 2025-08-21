@@ -1,4 +1,5 @@
 Lever by Quaternius (https://poly.pizza/m/guR2QhKFLT)
 https://sketchfab.com/3d-models/low-poly-mannequin-free-eb9daa49948f47169b3670169c042599
+https://godotshaders.com/shader/pixelated-dissolve-with-block-size/
 font
 color pallete

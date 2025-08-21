@@ -3,7 +3,7 @@ extends CharacterBody3D
 
 const SPEED = 4.3
 const JUMP_VELOCITY = 3.5
-
+var is_player := true
 @export var cam3DControllerComponent : Cam3DControllerComponent
 @export var fovControllerComponent : FovControllerComponent
 @export var crouch3DControllerComponent : Crouch3DControllerComponent
