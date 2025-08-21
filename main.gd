@@ -6,7 +6,7 @@ var fullbright_toggle = [0];
 var draw_mode_open = [true]
 
 var draw_mode_current = []
-var draw_mode_options = ["disabled", "unshaded", "lighting"]
+var draw_mode_options = ["disabled", "unshaded", "lighting","overdraw","wireframe","normal"]
 @export var level_viewport: SubViewport
 func _process(delta):
 	

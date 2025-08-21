@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://b2y6s6hg6gjma"]
+
+[ext_resource type="PackedScene" uid="uid://d4eurqqsm3lb4" path="res://levels/level_1/level_1.tscn" id="1_hvuti"]
+[ext_resource type="PackedScene" uid="uid://c5yfi3lklqibi" path="res://levels/level_2/level_2.tscn" id="2_6tvrh"]
+
+[sub_resource type="Environment" id="Environment_6tvrh"]
+background_mode = 1
+background_color = Color(0.099986, 0.099986, 0.0999859, 1)
+ambient_light_color = Color(1, 1, 1, 1)
+tonemap_mode = 2
+ssr_enabled = true
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_use_occlusion = true
+glow_enabled = true
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.35
+volumetric_fog_albedo = Color(0.462998, 0.457138, 0.454621, 1)
+adjustment_enabled = true
+adjustment_brightness = 1.2
+adjustment_saturation = 0.92
+
+[node name="level_manager" type="Node3D"]
+
+[node name="Level1" parent="." instance=ExtResource("1_hvuti")]
+
+[node name="Level2" parent="." instance=ExtResource("2_6tvrh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -16.5, -6.5)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_6tvrh")

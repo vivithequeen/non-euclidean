@@ -41,7 +41,6 @@ folder_colors={
 "res://addons/": "red",
 "res://autosave/": "orange",
 "res://entities/": "yellow",
-"res://images/": "green",
 "res://models/": "teal",
 "res://player/": "blue",
 "res://textures/": "purple"

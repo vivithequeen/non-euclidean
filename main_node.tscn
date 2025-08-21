@@ -1,26 +1,22 @@
-[gd_scene load_steps=4 format=3 uid="uid://cwrcfbdowr26l"]
+[gd_scene load_steps=3 format=3 uid="uid://cwrcfbdowr26l"]
 
 [ext_resource type="Script" uid="uid://dcg31qjk8r6pd" path="res://main.gd" id="1_bxfy6"]
-[ext_resource type="PackedScene" uid="uid://d4eurqqsm3lb4" path="res://levels/level_1/level_1.tscn" id="2_bxfy6"]
-[ext_resource type="PackedScene" uid="uid://bbql2d76ikoxt" path="res://player/player.tscn" id="2_dhalm"]
+[ext_resource type="PackedScene" uid="uid://b2y6s6hg6gjma" path="res://levels/level_manager.tscn" id="2_dhalm"]
 
 [node name="main" type="Node" node_paths=PackedStringArray("level_viewport")]
 script = ExtResource("1_bxfy6")
 level_viewport = NodePath("SubViewportContainer/SubViewport")
 
 [node name="SubViewportContainer" type="SubViewportContainer" parent="."]
-offset_right = 640.0
-offset_bottom = 360.0
-scale = Vector2(3, 3)
+offset_right = 480.0
+offset_bottom = 270.0
+scale = Vector2(4, 4)
 
 [node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
 handle_input_locally = false
 use_occlusion_culling = true
 canvas_item_default_texture_filter = 0
-size = Vector2i(640, 360)
+size = Vector2i(480, 270)
 render_target_update_mode = 4
 
-[node name="player" parent="SubViewportContainer/SubViewport" instance=ExtResource("2_dhalm")]
-transform = Transform3D(-4.37112e-08, 0, 1, 0, 1, 0, -1, 0, -4.37112e-08, 3.5, 0.75, 0)
-
-[node name="Level1" parent="SubViewportContainer/SubViewport" instance=ExtResource("2_bxfy6")]
+[node name="level_manager" parent="SubViewportContainer/SubViewport" instance=ExtResource("2_dhalm")]
