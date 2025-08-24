@@ -1,6 +1,6 @@
 extends Area3D
 @export var active : bool =true 
-@export var activate_objects : Array[Node3D]
+@export var activate_objects : Array[Node]
 
 func interact():
 

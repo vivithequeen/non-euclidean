@@ -3,3 +3,4 @@ https://sketchfab.com/3d-models/low-poly-mannequin-free-eb9daa49948f47169b367016
 https://godotshaders.com/shader/pixelated-dissolve-with-block-size/
 font
 color pallete
+Classic video camera by Jason Toff [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/4fIwIHGRsAn)

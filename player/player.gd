@@ -11,7 +11,8 @@ var is_player := true
 func _ready():
 	randomize()
 func _physics_process(delta: float) -> void:
-	
+	$SubViewport/Camera3D.global_position = $Camera3D/Camera/camera_ancor.global_position
+	$SubViewport/Camera3D.global_rotation = $Camera3D/Camera/camera_ancor.global_rotation
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
