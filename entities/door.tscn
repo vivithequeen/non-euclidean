@@ -1,8 +1,8 @@
 [gd_scene load_steps=8 format=4 uid="uid://b4vse2yculniy"]
 
-[ext_resource type="Texture2D" uid="uid://b6q632r6fqwty" path="res://textures/floor_tile2.png" id="1_3fqlw"]
+[ext_resource type="Texture2D" path="res://textures/floor_tile2.png" id="1_3fqlw"]
 [ext_resource type="Script" uid="uid://cqjxw3uc0i41w" path="res://entities/door.gd" id="1_k4wox"]
-[ext_resource type="Texture2D" uid="uid://djuc54h72yu5o" path="res://textures/metal.png" id="2_k4wox"]
+[ext_resource type="Texture2D" path="res://textures/metal.png" id="2_k4wox"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3fqlw"]
 points = PackedVector3Array(-0.277778, -1.77743, -1.02778, 0.277778, 1.77743, 1.02778, -0.277778, 1.77743, 1.02778, 0.277778, -1.77743, 1.02778, 0.277778, 1.77743, -1.02778, -0.277778, 1.77743, -1.02778, -0.277778, -1.77743, 1.02778, 0.277778, -1.77743, -1.02778)

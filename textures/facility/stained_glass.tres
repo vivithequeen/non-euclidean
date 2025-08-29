@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://hmu3ednmdsr5"]
+
+[ext_resource type="Texture2D" uid="uid://bbtdj7kxskbcb" path="res://textures/stained_glass.png" id="1_v3val"]
+[ext_resource type="Texture2D" uid="uid://j5xskt3puc5l" path="res://textures/stained_glass_glow.png" id="2_8mywl"]
+
+[resource]
+albedo_texture = ExtResource("1_v3val")
+metallic_specular = 0.0
+emission = Color(0.964706, 0.839216, 0.741176, 1)
+emission_texture = ExtResource("2_8mywl")
+texture_filter = 2

@@ -4,9 +4,9 @@
 [ext_resource type="Script" uid="uid://cowlilu6akgik" path="res://addons/func_godot/src/map/func_godot_map.gd" id="1_ntqx5"]
 [ext_resource type="Resource" uid="uid://bkhxcqsquw1yg" path="res://addons/func_godot/func_godot_default_map_settings.tres" id="2_v3q71"]
 [ext_resource type="Texture2D" uid="uid://cyg2snr1w5xw5" path="res://addons/func_godot/textures/default_texture.png" id="3_bepmd"]
-[ext_resource type="Material" uid="uid://b7caa3tcghs0s" path="res://textures/metal.tres" id="4_lawrj"]
-[ext_resource type="Material" uid="uid://v6pan7kxew8o" path="res://textures/ceiling.tres" id="5_w3aep"]
-[ext_resource type="Texture2D" uid="uid://b6q632r6fqwty" path="res://textures/floor_tile2.png" id="6_v3q71"]
+[ext_resource type="Material" uid="uid://bpbq51wq40t7y" path="res://textures/metal.tres" id="4_lawrj"]
+[ext_resource type="Material" path="res://textures/ceiling.tres" id="5_w3aep"]
+[ext_resource type="Texture2D" path="res://textures/floor_tile2.png" id="6_v3q71"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_bepmd"]
 

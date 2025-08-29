@@ -1,22 +1,21 @@
-[gd_scene load_steps=474 format=4 uid="uid://d4eurqqsm3lb4"]
+[gd_scene load_steps=473 format=4 uid="uid://d4eurqqsm3lb4"]
 
 [ext_resource type="LightmapGIData" uid="uid://v8g8a7qesx1k" path="res://levels/test_level/main.lmbake" id="1_mxc8w"]
 [ext_resource type="Script" uid="uid://cowlilu6akgik" path="res://addons/func_godot/src/map/func_godot_map.gd" id="2_j48du"]
 [ext_resource type="Resource" uid="uid://bkhxcqsquw1yg" path="res://addons/func_godot/func_godot_default_map_settings.tres" id="3_8jbay"]
-[ext_resource type="Material" uid="uid://8y26qpyxo2g8" path="res://textures/floor_tile.tres" id="4_la5aw"]
-[ext_resource type="Material" uid="uid://cdsp347urn5sd" path="res://textures/wall.tres" id="5_qbdb0"]
-[ext_resource type="Material" uid="uid://bi7wn36ilham3" path="res://textures/floor_tile2.tres" id="6_hyp3v"]
+[ext_resource type="Material" uid="uid://d3k0vtykbuon3" path="res://textures/floor_tile.tres" id="4_la5aw"]
+[ext_resource type="Material" uid="uid://cmt5fuhyt1ufw" path="res://textures/wall.tres" id="5_qbdb0"]
+[ext_resource type="Material" uid="uid://gftr1gr5yak5" path="res://textures/floor_tile2.tres" id="6_hyp3v"]
 [ext_resource type="PackedScene" uid="uid://fniv8yjgd0at" path="res://entities/light.tscn" id="7_1ow6f"]
-[ext_resource type="Material" uid="uid://bbsov16l2m2yt" path="res://textures/piller.tres" id="7_j48du"]
+[ext_resource type="Material" uid="uid://cn7qwamcmx2a2" path="res://textures/piller.tres" id="7_j48du"]
 [ext_resource type="PackedScene" uid="uid://ccte3w41mtikl" path="res://entities/switch.tscn" id="9_8jbay"]
-[ext_resource type="Material" uid="uid://b7caa3tcghs0s" path="res://textures/metal.tres" id="9_owtu7"]
+[ext_resource type="Material" uid="uid://bpbq51wq40t7y" path="res://textures/metal.tres" id="9_owtu7"]
 [ext_resource type="PackedScene" uid="uid://b4vse2yculniy" path="res://entities/door.tscn" id="10_la5aw"]
-[ext_resource type="Material" uid="uid://bf3lkfqlevryi" path="res://textures/black.tres" id="10_lbtho"]
+[ext_resource type="Material" uid="uid://dieifhkawdfsu" path="res://textures/black.tres" id="10_lbtho"]
 [ext_resource type="Script" uid="uid://cw1r4c1d7beyv" path="res://addons/portals/scripts/portal_3d.gd" id="12_7rikf"]
 [ext_resource type="Material" uid="uid://dcfkcyddxkglf" path="res://addons/portals/materials/editor-preview-portal-material.tres" id="13_ov0dm"]
 [ext_resource type="Script" uid="uid://bxcel82b180o3" path="res://addons/portals/scripts/portal_boxmesh.gd" id="14_lwxes"]
 [ext_resource type="PackedScene" uid="uid://chhgh144encov" path="res://entities/box.tscn" id="16_lwxes"]
-[ext_resource type="Texture2D" uid="uid://djuc54h72yu5o" path="res://textures/metal.png" id="18_drths"]
 [ext_resource type="Script" uid="uid://c7govkiv56qwx" path="res://entities/activate.gd" id="19_owtu7"]
 [ext_resource type="PackedScene" uid="uid://tnrit6ga0kn4" path="res://entities/box_platform.tscn" id="21_1iwl3"]
 
@@ -1444,7 +1443,6 @@ size = Vector3(4, 4, 1)
 size = Vector3(2, 3.5, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_owtu7"]
-albedo_texture = ExtResource("18_drths")
 uv1_triplanar = true
 texture_filter = 0
 

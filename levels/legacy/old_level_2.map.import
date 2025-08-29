@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://bs00v3op81f7v"
+path="res://.godot/imported/old_level_2.map-80133f6c31aa7842b7ee9000c3eec8fa.tres"
+
+[deps]
+
+source_file="res://levels/legacy/old_level_2.map"
+dest_files=["res://.godot/imported/old_level_2.map-80133f6c31aa7842b7ee9000c3eec8fa.tres"]
+
+[params]
+

@@ -20,13 +20,15 @@ func _process(delta):
 		get_tree().reload_current_scene()
 	ImGui.End()
 	
-
+var view_collition = [false]
 func draw_mode():
 	ImGui.Begin("Draw Mode", draw_mode_open)
 
 	if(ImGui.Combo("Draw Modes", draw_mode_current,draw_mode_options)):
 		
 		level_viewport.debug_draw = draw_mode_current[0]
+	if(ImGui.Checkbox("View Collition", view_collition)):
+		pass #idk add this ig	
 	ImGui.End()
 
 func mainMenuBar():

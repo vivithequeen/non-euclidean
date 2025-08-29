@@ -1,0 +1,1469 @@
+mtllib old_level_2.mtl
+# vertices
+v -64 -64 432
+v -64 -64 448
+v -64 64 448
+v -64 64 432
+v 64 64 448
+v 64 -64 448
+v 64 -64 432
+v 64 64 432
+v -64 -64 416
+v -64 -64 432
+v -64 64 432
+v -64 64 416
+v 64 64 432
+v 64 -64 432
+v 64 -64 416
+v 64 64 416
+v -64 -64 400
+v -64 -64 416
+v -64 64 416
+v -64 64 400
+v 64 64 416
+v 64 -64 416
+v 64 -64 400
+v 64 64 400
+v -64 -64 384
+v -64 -64 400
+v -64 64 400
+v -64 64 384
+v 64 64 400
+v 64 -64 400
+v 64 -64 384
+v 64 64 384
+v -64 -64 336
+v -64 -64 352
+v -64 64 352
+v -64 64 336
+v 64 64 352
+v 64 -64 352
+v 64 -64 336
+v 64 64 336
+v -64 -64 352
+v -64 -64 368
+v -64 64 368
+v -64 64 352
+v 64 64 368
+v 64 -64 368
+v 64 -64 352
+v 64 64 352
+v -64 -64 368
+v -64 -64 384
+v -64 64 384
+v -64 64 368
+v 64 64 384
+v 64 -64 384
+v 64 -64 368
+v 64 64 368
+v -64 -64 320
+v -64 -64 336
+v -64 64 336
+v -64 64 320
+v 64 64 336
+v 64 -64 336
+v 64 -64 320
+v 64 64 320
+v -64 -64 208
+v -64 -64 224
+v -64 64 224
+v -64 64 208
+v 64 64 224
+v 64 -64 224
+v 64 -64 208
+v 64 64 208
+v -64 -64 224
+v -64 -64 240
+v -64 64 240
+v -64 64 224
+v 64 64 240
+v 64 -64 240
+v 64 -64 224
+v 64 64 224
+v -64 -64 240
+v -64 -64 256
+v -64 64 256
+v -64 64 240
+v 64 64 256
+v 64 -64 256
+v 64 -64 240
+v 64 64 240
+v -64 -64 192
+v -64 -64 208
+v -64 64 208
+v -64 64 192
+v 64 64 208
+v 64 -64 208
+v 64 -64 192
+v 64 64 192
+v -64 -64 304
+v -64 -64 320
+v -64 64 320
+v -64 64 304
+v 64 64 320
+v 64 -64 320
+v 64 -64 304
+v 64 64 304
+v -64 -64 288
+v -64 -64 304
+v -64 64 304
+v -64 64 288
+v 64 64 304
+v 64 -64 304
+v 64 -64 288
+v 64 64 288
+v -64 -64 272
+v -64 -64 288
+v -64 64 288
+v -64 64 272
+v 64 64 288
+v 64 -64 288
+v 64 -64 272
+v 64 64 272
+v -64 -64 256
+v -64 -64 272
+v -64 64 272
+v -64 64 256
+v 64 64 272
+v 64 -64 272
+v 64 -64 256
+v 64 64 256
+v -64 -64 48
+v -64 -64 64
+v -64 64 64
+v -64 64 48
+v 64 64 64
+v 64 -64 64
+v 64 -64 48
+v 64 64 48
+v -64 -64 32
+v -64 -64 48
+v -64 64 48
+v -64 64 32
+v 64 64 48
+v 64 -64 48
+v 64 -64 32
+v 64 64 32
+v -64 -64 16
+v -64 -64 32
+v -64 64 32
+v -64 64 16
+v 64 64 32
+v 64 -64 32
+v 64 -64 16
+v 64 64 16
+v -64 -64 -0
+v -64 -64 16
+v -64 64 16
+v -64 64 -0
+v 64 64 16
+v 64 -64 16
+v 64 -64 -0
+v 64 64 -0
+v -64 -64 176
+v -64 -64 192
+v -64 64 192
+v -64 64 176
+v 64 64 192
+v 64 -64 192
+v 64 -64 176
+v 64 64 176
+v -64 -64 160
+v -64 -64 176
+v -64 64 176
+v -64 64 160
+v 64 64 176
+v 64 -64 176
+v 64 -64 160
+v 64 64 160
+v -64 -64 144
+v -64 -64 160
+v -64 64 160
+v -64 64 144
+v 64 64 160
+v 64 -64 160
+v 64 -64 144
+v 64 64 144
+v -64 -64 128
+v -64 -64 144
+v -64 64 144
+v -64 64 128
+v 64 64 144
+v 64 -64 144
+v 64 -64 128
+v 64 64 128
+v -64 -64 112
+v -64 -64 128
+v -64 64 128
+v -64 64 112
+v 64 64 128
+v 64 -64 128
+v 64 -64 112
+v 64 64 112
+v -64 -64 96
+v -64 -64 112
+v -64 64 112
+v -64 64 96
+v 64 64 112
+v 64 -64 112
+v 64 -64 96
+v 64 64 96
+v -64 -64 80
+v -64 -64 96
+v -64 64 96
+v -64 64 80
+v 64 64 96
+v 64 -64 96
+v 64 -64 80
+v 64 64 80
+v -64 -64 64
+v -64 -64 80
+v -64 64 80
+v -64 64 64
+v 64 64 80
+v 64 -64 80
+v 64 -64 64
+v 64 64 64
+v -64 -64 -448
+v -64 -64 -432
+v -64 64 -432
+v -64 64 -448
+v 64 64 -432
+v 64 -64 -432
+v 64 -64 -448
+v 64 64 -448
+v -64 -64 -432
+v -64 -64 -416
+v -64 64 -416
+v -64 64 -432
+v 64 64 -416
+v 64 -64 -416
+v 64 -64 -432
+v 64 64 -432
+v -64 -64 -416
+v -64 -64 -400
+v -64 64 -400
+v -64 64 -416
+v 64 64 -400
+v 64 -64 -400
+v 64 -64 -416
+v 64 64 -416
+v -64 -64 -400
+v -64 -64 -384
+v -64 64 -384
+v -64 64 -400
+v 64 64 -384
+v 64 -64 -384
+v 64 -64 -400
+v 64 64 -400
+v -64 -64 -384
+v -64 -64 -368
+v -64 64 -368
+v -64 64 -384
+v 64 64 -368
+v 64 -64 -368
+v 64 -64 -384
+v 64 64 -384
+v -64 -64 -368
+v -64 -64 -352
+v -64 64 -352
+v -64 64 -368
+v 64 64 -352
+v 64 -64 -352
+v 64 -64 -368
+v 64 64 -368
+v -64 -64 -352
+v -64 -64 -336
+v -64 64 -336
+v -64 64 -352
+v 64 64 -336
+v 64 -64 -336
+v 64 -64 -352
+v 64 64 -352
+v -64 -64 -336
+v -64 -64 -320
+v -64 64 -320
+v -64 64 -336
+v 64 64 -320
+v 64 -64 -320
+v 64 -64 -336
+v 64 64 -336
+v -64 -64 -320
+v -64 -64 -304
+v -64 64 -304
+v -64 64 -320
+v 64 64 -304
+v 64 -64 -304
+v 64 -64 -320
+v 64 64 -320
+v -64 -64 -304
+v -64 -64 -288
+v -64 64 -288
+v -64 64 -304
+v 64 64 -288
+v 64 -64 -288
+v 64 -64 -304
+v 64 64 -304
+v -64 -64 -288
+v -64 -64 -272
+v -64 64 -272
+v -64 64 -288
+v 64 64 -272
+v 64 -64 -272
+v 64 -64 -288
+v 64 64 -288
+v -64 -64 -272
+v -64 -64 -256
+v -64 64 -256
+v -64 64 -272
+v 64 64 -256
+v 64 -64 -256
+v 64 -64 -272
+v 64 64 -272
+v -64 -64 -256
+v -64 -64 -240
+v -64 64 -240
+v -64 64 -256
+v 64 64 -240
+v 64 -64 -240
+v 64 -64 -256
+v 64 64 -256
+v -64 -64 -240
+v -64 -64 -224
+v -64 64 -224
+v -64 64 -240
+v 64 64 -224
+v 64 -64 -224
+v 64 -64 -240
+v 64 64 -240
+v -64 -64 -224
+v -64 -64 -208
+v -64 64 -208
+v -64 64 -224
+v 64 64 -208
+v 64 -64 -208
+v 64 -64 -224
+v 64 64 -224
+v -64 -64 -208
+v -64 -64 -192
+v -64 64 -192
+v -64 64 -208
+v 64 64 -192
+v 64 -64 -192
+v 64 -64 -208
+v 64 64 -208
+v -64 -64 -192
+v -64 -64 -176
+v -64 64 -176
+v -64 64 -192
+v 64 64 -176
+v 64 -64 -176
+v 64 -64 -192
+v 64 64 -192
+v -64 -64 -176
+v -64 -64 -160
+v -64 64 -160
+v -64 64 -176
+v 64 64 -160
+v 64 -64 -160
+v 64 -64 -176
+v 64 64 -176
+v -64 -64 -160
+v -64 -64 -144
+v -64 64 -144
+v -64 64 -160
+v 64 64 -144
+v 64 -64 -144
+v 64 -64 -160
+v 64 64 -160
+v -64 -64 -144
+v -64 -64 -128
+v -64 64 -128
+v -64 64 -144
+v 64 64 -128
+v 64 -64 -128
+v 64 -64 -144
+v 64 64 -144
+v -64 -64 -128
+v -64 -64 -112
+v -64 64 -112
+v -64 64 -128
+v 64 64 -112
+v 64 -64 -112
+v 64 -64 -128
+v 64 64 -128
+v -64 -64 -112
+v -64 -64 -96
+v -64 64 -96
+v -64 64 -112
+v 64 64 -96
+v 64 -64 -96
+v 64 -64 -112
+v 64 64 -112
+v -64 -64 -96
+v -64 -64 -80
+v -64 64 -80
+v -64 64 -96
+v 64 64 -80
+v 64 -64 -80
+v 64 -64 -96
+v 64 64 -96
+v -64 -64 -80
+v -64 -64 -64
+v -64 64 -64
+v -64 64 -80
+v 64 64 -64
+v 64 -64 -64
+v 64 -64 -80
+v 64 64 -80
+v -64 -64 -64
+v -64 -64 -48
+v -64 64 -48
+v -64 64 -64
+v 64 64 -48
+v 64 -64 -48
+v 64 -64 -64
+v 64 64 -64
+v -64 -64 -48
+v -64 -64 -32
+v -64 64 -32
+v -64 64 -48
+v 64 64 -32
+v 64 -64 -32
+v 64 -64 -48
+v 64 64 -48
+v -64 -64 -32
+v -64 -64 -16
+v -64 64 -16
+v -64 64 -32
+v 64 64 -16
+v 64 -64 -16
+v 64 -64 -32
+v 64 64 -32
+v -64 -64 -16
+v -64 -64 -0
+v -64 64 -0
+v -64 64 -16
+v 64 64 -0
+v 64 -64 -0
+v 64 -64 -16
+v 64 64 -16
+
+# texture coordinates
+vt 13.5 -2
+vt 14 -2
+vt 14 2
+vt 13.5 2
+vt 2 2
+vt -2 2
+vt -2 -2
+vt 2 -2
+vt -2 -14
+vt 2 -14
+vt 2 -13.5
+vt -2 -13.5
+vt -13.5 2
+vt -14 2
+vt -14 -2
+vt -13.5 -2
+vt 13 -2
+vt 13 2
+vt 2 -13
+vt -2 -13
+vt -13 2
+vt -13 -2
+vt 12.5 -2
+vt 12.5 2
+vt 2 -12.5
+vt -2 -12.5
+vt -12.5 2
+vt -12.5 -2
+vt 12 -2
+vt 12 2
+vt 2 -12
+vt -2 -12
+vt -12 2
+vt -12 -2
+vt 10.5 -2
+vt 11 -2
+vt 11 2
+vt 10.5 2
+vt -2 -11
+vt 2 -11
+vt 2 -10.5
+vt -2 -10.5
+vt -10.5 2
+vt -11 2
+vt -11 -2
+vt -10.5 -2
+vt 11.5 -2
+vt 11.5 2
+vt -2 -11.5
+vt 2 -11.5
+vt -11.5 2
+vt -11.5 -2
+vt 10 -2
+vt 10 2
+vt 2 -10
+vt -2 -10
+vt -10 2
+vt -10 -2
+vt 6.5 -2
+vt 7 -2
+vt 7 2
+vt 6.5 2
+vt -2 -7
+vt 2 -7
+vt 2 -6.5
+vt -2 -6.5
+vt -6.5 2
+vt -7 2
+vt -7 -2
+vt -6.5 -2
+vt 7.5 -2
+vt 7.5 2
+vt -2 -7.5
+vt 2 -7.5
+vt -7.5 2
+vt -7.5 -2
+vt 8 -2
+vt 8 2
+vt -2 -8
+vt 2 -8
+vt -8 2
+vt -8 -2
+vt 6 -2
+vt 6 2
+vt 2 -6
+vt -2 -6
+vt -6 2
+vt -6 -2
+vt 9.5 -2
+vt 9.5 2
+vt 2 -9.5
+vt -2 -9.5
+vt -9.5 2
+vt -9.5 -2
+vt 9 -2
+vt 9 2
+vt 2 -9
+vt -2 -9
+vt -9 2
+vt -9 -2
+vt 8.5 -2
+vt 8.5 2
+vt 2 -8.5
+vt -2 -8.5
+vt -8.5 2
+vt -8.5 -2
+vt 1.5 -2
+vt 1.5 2
+vt 2 -1.5
+vt -2 -1.5
+vt -1.5 2
+vt -1.5 -2
+vt 1 -2
+vt 1 2
+vt 2 -1
+vt -2 -1
+vt -1 2
+vt -1 -2
+vt 0.5 -2
+vt 0.5 2
+vt 2 -0.5
+vt -2 -0.5
+vt -0.5 2
+vt -0.5 -2
+vt 0 -2
+vt 0 2
+vt 2 -0
+vt -2 -0
+vt 5.5 -2
+vt 5.5 2
+vt 2 -5.5
+vt -2 -5.5
+vt -5.5 2
+vt -5.5 -2
+vt 5 -2
+vt 5 2
+vt 2 -5
+vt -2 -5
+vt -5 2
+vt -5 -2
+vt 4.5 -2
+vt 4.5 2
+vt 2 -4.5
+vt -2 -4.5
+vt -4.5 2
+vt -4.5 -2
+vt 4 -2
+vt 4 2
+vt 2 -4
+vt -2 -4
+vt -4 2
+vt -4 -2
+vt 3.5 -2
+vt 3.5 2
+vt 2 -3.5
+vt -2 -3.5
+vt -3.5 2
+vt -3.5 -2
+vt 3 -2
+vt 3 2
+vt 2 -3
+vt -2 -3
+vt -3 2
+vt -3 -2
+vt 2.5 -2
+vt 2.5 2
+vt 2 -2.5
+vt -2 -2.5
+vt -2.5 2
+vt -2.5 -2
+vt -2 13.5
+vt 2 13.5
+vt 2 14
+vt -2 14
+vt -2 13
+vt 2 13
+vt -2 12.5
+vt 2 12.5
+vt -2 12
+vt 2 12
+vt -2 11.5
+vt 2 11.5
+vt -2 11
+vt 2 11
+vt -2 10.5
+vt 2 10.5
+vt -2 10
+vt 2 10
+vt -2 9.5
+vt 2 9.5
+vt -2 9
+vt 2 9
+vt -2 8.5
+vt 2 8.5
+vt -2 8
+vt 2 8
+vt -2 7.5
+vt 2 7.5
+vt -2 7
+vt 2 7
+vt -2 6.5
+vt 2 6.5
+vt -2 6
+vt 2 6
+vt -2 5.5
+vt 2 5.5
+vt -2 5
+vt 2 5
+vt -2 4.5
+vt 2 4.5
+vt -2 4
+vt 2 4
+vt -2 3.5
+vt 2 3.5
+vt -2 3
+vt 2 3
+vt -2 2.5
+vt 2 2.5
+vt -2 1.5
+vt 2 1.5
+vt -2 1
+vt 2 1
+vt -2 0.5
+vt 2 0.5
+
+# normals
+vn -1 0 -0
+vn 0 0 1
+vn 0 -1 -0
+vn 0 1 -0
+vn 0 0 -1
+vn 1 0 -0
+
+o entity0_brush0
+usemtl monocrome/white
+f  1/1/1  2/2/1  3/3/1  4/4/1
+usemtl monocrome/white
+f  5/5/2  3/6/2  2/7/2  6/8/2
+usemtl monocrome/white
+f  6/9/3  2/10/3  1/11/3  7/12/3
+usemtl monocrome/white
+f  8/11/4  4/12/4  3/9/4  5/10/4
+usemtl monocrome/white
+f  7/7/5  1/8/5  4/5/5  8/6/5
+usemtl monocrome/white
+f  8/13/6  5/14/6  6/15/6  7/16/6
+
+o entity0_brush1
+usemtl monocrome/white
+f  9/17/1  10/1/1  11/4/1  12/18/1
+usemtl monocrome/white
+f  13/6/2  11/5/2  10/8/2  14/7/2
+usemtl monocrome/white
+f  14/12/3  10/11/3  9/19/3  15/20/3
+usemtl monocrome/white
+f  16/19/4  12/20/4  11/12/4  13/11/4
+usemtl monocrome/white
+f  15/7/5  9/8/5  12/5/5  16/6/5
+usemtl monocrome/white
+f  16/21/6  13/13/6  14/16/6  15/22/6
+
+o entity0_brush2
+usemtl monocrome/white
+f  17/23/1  18/17/1  19/18/1  20/24/1
+usemtl monocrome/white
+f  21/6/2  19/5/2  18/8/2  22/7/2
+usemtl monocrome/white
+f  22/20/3  18/19/3  17/25/3  23/26/3
+usemtl monocrome/white
+f  24/25/4  20/26/4  19/20/4  21/19/4
+usemtl monocrome/white
+f  23/7/5  17/8/5  20/5/5  24/6/5
+usemtl monocrome/white
+f  24/27/6  21/21/6  22/22/6  23/28/6
+
+o entity0_brush3
+usemtl monocrome/white
+f  25/29/1  26/23/1  27/24/1  28/30/1
+usemtl monocrome/white
+f  29/6/2  27/5/2  26/8/2  30/7/2
+usemtl monocrome/white
+f  30/26/3  26/25/3  25/31/3  31/32/3
+usemtl monocrome/white
+f  32/31/4  28/32/4  27/26/4  29/25/4
+usemtl monocrome/white
+f  31/7/5  25/8/5  28/5/5  32/6/5
+usemtl monocrome/white
+f  32/33/6  29/27/6  30/28/6  31/34/6
+
+o entity0_brush4
+usemtl monocrome/white
+f  33/35/1  34/36/1  35/37/1  36/38/1
+usemtl monocrome/white
+f  37/6/2  35/5/2  34/8/2  38/7/2
+usemtl monocrome/white
+f  38/39/3  34/40/3  33/41/3  39/42/3
+usemtl monocrome/white
+f  40/41/4  36/42/4  35/39/4  37/40/4
+usemtl monocrome/white
+f  39/7/5  33/8/5  36/5/5  40/6/5
+usemtl monocrome/white
+f  40/43/6  37/44/6  38/45/6  39/46/6
+
+o entity0_brush5
+usemtl monocrome/white
+f  41/36/1  42/47/1  43/48/1  44/37/1
+usemtl monocrome/white
+f  45/6/2  43/5/2  42/8/2  46/7/2
+usemtl monocrome/white
+f  46/49/3  42/50/3  41/40/3  47/39/3
+usemtl monocrome/white
+f  48/40/4  44/39/4  43/49/4  45/50/4
+usemtl monocrome/white
+f  47/7/5  41/8/5  44/5/5  48/6/5
+usemtl monocrome/white
+f  48/44/6  45/51/6  46/52/6  47/45/6
+
+o entity0_brush6
+usemtl monocrome/white
+f  49/47/1  50/29/1  51/30/1  52/48/1
+usemtl monocrome/white
+f  53/5/2  51/6/2  50/7/2  54/8/2
+usemtl monocrome/white
+f  54/32/3  50/31/3  49/50/3  55/49/3
+usemtl monocrome/white
+f  56/50/4  52/49/4  51/32/4  53/31/4
+usemtl monocrome/white
+f  55/7/5  49/8/5  52/5/5  56/6/5
+usemtl monocrome/white
+f  56/51/6  53/33/6  54/34/6  55/52/6
+
+o entity0_brush7
+usemtl monocrome/white
+f  57/53/1  58/35/1  59/38/1  60/54/1
+usemtl monocrome/white
+f  61/6/2  59/5/2  58/8/2  62/7/2
+usemtl monocrome/white
+f  62/42/3  58/41/3  57/55/3  63/56/3
+usemtl monocrome/white
+f  64/55/4  60/56/4  59/42/4  61/41/4
+usemtl monocrome/white
+f  63/7/5  57/8/5  60/5/5  64/6/5
+usemtl monocrome/white
+f  64/57/6  61/43/6  62/46/6  63/58/6
+
+o entity0_brush8
+usemtl monocrome/white
+f  65/59/1  66/60/1  67/61/1  68/62/1
+usemtl monocrome/white
+f  69/6/2  67/5/2  66/8/2  70/7/2
+usemtl monocrome/white
+f  70/63/3  66/64/3  65/65/3  71/66/3
+usemtl monocrome/white
+f  72/65/4  68/66/4  67/63/4  69/64/4
+usemtl monocrome/white
+f  71/7/5  65/8/5  68/5/5  72/6/5
+usemtl monocrome/white
+f  72/67/6  69/68/6  70/69/6  71/70/6
+
+o entity0_brush9
+usemtl monocrome/white
+f  73/60/1  74/71/1  75/72/1  76/61/1
+usemtl monocrome/white
+f  77/6/2  75/5/2  74/8/2  78/7/2
+usemtl monocrome/white
+f  78/73/3  74/74/3  73/64/3  79/63/3
+usemtl monocrome/white
+f  80/64/4  76/63/4  75/73/4  77/74/4
+usemtl monocrome/white
+f  79/7/5  73/8/5  76/5/5  80/6/5
+usemtl monocrome/white
+f  80/68/6  77/75/6  78/76/6  79/69/6
+
+o entity0_brush10
+usemtl monocrome/white
+f  81/71/1  82/77/1  83/78/1  84/72/1
+usemtl monocrome/white
+f  85/5/2  83/6/2  82/7/2  86/8/2
+usemtl monocrome/white
+f  86/79/3  82/80/3  81/74/3  87/73/3
+usemtl monocrome/white
+f  88/74/4  84/73/4  83/79/4  85/80/4
+usemtl monocrome/white
+f  87/7/5  81/8/5  84/5/5  88/6/5
+usemtl monocrome/white
+f  88/75/6  85/81/6  86/82/6  87/76/6
+
+o entity0_brush11
+usemtl monocrome/white
+f  89/83/1  90/59/1  91/62/1  92/84/1
+usemtl monocrome/white
+f  93/6/2  91/5/2  90/8/2  94/7/2
+usemtl monocrome/white
+f  94/66/3  90/65/3  89/85/3  95/86/3
+usemtl monocrome/white
+f  96/85/4  92/86/4  91/66/4  93/65/4
+usemtl monocrome/white
+f  95/7/5  89/8/5  92/5/5  96/6/5
+usemtl monocrome/white
+f  96/87/6  93/67/6  94/70/6  95/88/6
+
+o entity0_brush12
+usemtl monocrome/white
+f  97/89/1  98/53/1  99/54/1  100/90/1
+usemtl monocrome/white
+f  101/5/2  99/6/2  98/7/2  102/8/2
+usemtl monocrome/white
+f  102/56/3  98/55/3  97/91/3  103/92/3
+usemtl monocrome/white
+f  104/91/4  100/92/4  99/56/4  101/55/4
+usemtl monocrome/white
+f  103/7/5  97/8/5  100/5/5  104/6/5
+usemtl monocrome/white
+f  104/93/6  101/57/6  102/58/6  103/94/6
+
+o entity0_brush13
+usemtl monocrome/white
+f  105/95/1  106/89/1  107/90/1  108/96/1
+usemtl monocrome/white
+f  109/6/2  107/5/2  106/8/2  110/7/2
+usemtl monocrome/white
+f  110/92/3  106/91/3  105/97/3  111/98/3
+usemtl monocrome/white
+f  112/97/4  108/98/4  107/92/4  109/91/4
+usemtl monocrome/white
+f  111/7/5  105/8/5  108/5/5  112/6/5
+usemtl monocrome/white
+f  112/99/6  109/93/6  110/94/6  111/100/6
+
+o entity0_brush14
+usemtl monocrome/white
+f  113/101/1  114/95/1  115/96/1  116/102/1
+usemtl monocrome/white
+f  117/6/2  115/5/2  114/8/2  118/7/2
+usemtl monocrome/white
+f  118/98/3  114/97/3  113/103/3  119/104/3
+usemtl monocrome/white
+f  120/103/4  116/104/4  115/98/4  117/97/4
+usemtl monocrome/white
+f  119/7/5  113/8/5  116/5/5  120/6/5
+usemtl monocrome/white
+f  120/105/6  117/99/6  118/100/6  119/106/6
+
+o entity0_brush15
+usemtl monocrome/white
+f  121/77/1  122/101/1  123/102/1  124/78/1
+usemtl monocrome/white
+f  125/6/2  123/5/2  122/8/2  126/7/2
+usemtl monocrome/white
+f  126/104/3  122/103/3  121/80/3  127/79/3
+usemtl monocrome/white
+f  128/80/4  124/79/4  123/104/4  125/103/4
+usemtl monocrome/white
+f  127/7/5  121/8/5  124/5/5  128/6/5
+usemtl monocrome/white
+f  128/81/6  125/105/6  126/106/6  127/82/6
+
+o entity0_brush16
+usemtl monocrome/white
+f  129/107/1  130/8/1  131/5/1  132/108/1
+usemtl monocrome/white
+f  133/5/2  131/6/2  130/7/2  134/8/2
+usemtl monocrome/white
+f  134/7/3  130/8/3  129/109/3  135/110/3
+usemtl monocrome/white
+f  136/109/4  132/110/4  131/7/4  133/8/4
+usemtl monocrome/white
+f  135/7/5  129/8/5  132/5/5  136/6/5
+usemtl monocrome/white
+f  136/111/6  133/6/6  134/7/6  135/112/6
+
+o entity0_brush17
+usemtl monocrome/white
+f  137/113/1  138/107/1  139/108/1  140/114/1
+usemtl monocrome/white
+f  141/6/2  139/5/2  138/8/2  142/7/2
+usemtl monocrome/white
+f  142/110/3  138/109/3  137/115/3  143/116/3
+usemtl monocrome/white
+f  144/115/4  140/116/4  139/110/4  141/109/4
+usemtl monocrome/white
+f  143/7/5  137/8/5  140/5/5  144/6/5
+usemtl monocrome/white
+f  144/117/6  141/111/6  142/112/6  143/118/6
+
+o entity0_brush18
+usemtl monocrome/white
+f  145/119/1  146/113/1  147/114/1  148/120/1
+usemtl monocrome/white
+f  149/6/2  147/5/2  146/8/2  150/7/2
+usemtl monocrome/white
+f  150/116/3  146/115/3  145/121/3  151/122/3
+usemtl monocrome/white
+f  152/121/4  148/122/4  147/116/4  149/115/4
+usemtl monocrome/white
+f  151/7/5  145/8/5  148/5/5  152/6/5
+usemtl monocrome/white
+f  152/123/6  149/117/6  150/118/6  151/124/6
+
+o entity0_brush19
+usemtl monocrome/white
+f  153/125/1  154/119/1  155/120/1  156/126/1
+usemtl monocrome/white
+f  157/6/2  155/5/2  154/8/2  158/7/2
+usemtl monocrome/white
+f  158/122/3  154/121/3  153/127/3  159/128/3
+usemtl monocrome/white
+f  160/127/4  156/128/4  155/122/4  157/121/4
+usemtl monocrome/white
+f  159/7/5  153/8/5  156/5/5  160/6/5
+usemtl monocrome/white
+f  160/126/6  157/123/6  158/124/6  159/125/6
+
+o entity0_brush20
+usemtl monocrome/white
+f  161/129/1  162/83/1  163/84/1  164/130/1
+usemtl monocrome/white
+f  165/5/2  163/6/2  162/7/2  166/8/2
+usemtl monocrome/white
+f  166/86/3  162/85/3  161/131/3  167/132/3
+usemtl monocrome/white
+f  168/131/4  164/132/4  163/86/4  165/85/4
+usemtl monocrome/white
+f  167/7/5  161/8/5  164/5/5  168/6/5
+usemtl monocrome/white
+f  168/133/6  165/87/6  166/88/6  167/134/6
+
+o entity0_brush21
+usemtl monocrome/white
+f  169/135/1  170/129/1  171/130/1  172/136/1
+usemtl monocrome/white
+f  173/6/2  171/5/2  170/8/2  174/7/2
+usemtl monocrome/white
+f  174/132/3  170/131/3  169/137/3  175/138/3
+usemtl monocrome/white
+f  176/137/4  172/138/4  171/132/4  173/131/4
+usemtl monocrome/white
+f  175/7/5  169/8/5  172/5/5  176/6/5
+usemtl monocrome/white
+f  176/139/6  173/133/6  174/134/6  175/140/6
+
+o entity0_brush22
+usemtl monocrome/white
+f  177/141/1  178/135/1  179/136/1  180/142/1
+usemtl monocrome/white
+f  181/6/2  179/5/2  178/8/2  182/7/2
+usemtl monocrome/white
+f  182/138/3  178/137/3  177/143/3  183/144/3
+usemtl monocrome/white
+f  184/143/4  180/144/4  179/138/4  181/137/4
+usemtl monocrome/white
+f  183/7/5  177/8/5  180/5/5  184/6/5
+usemtl monocrome/white
+f  184/145/6  181/139/6  182/140/6  183/146/6
+
+o entity0_brush23
+usemtl monocrome/white
+f  185/147/1  186/141/1  187/142/1  188/148/1
+usemtl monocrome/white
+f  189/6/2  187/5/2  186/8/2  190/7/2
+usemtl monocrome/white
+f  190/144/3  186/143/3  185/149/3  191/150/3
+usemtl monocrome/white
+f  192/149/4  188/150/4  187/144/4  189/143/4
+usemtl monocrome/white
+f  191/7/5  185/8/5  188/5/5  192/6/5
+usemtl monocrome/white
+f  192/151/6  189/145/6  190/146/6  191/152/6
+
+o entity0_brush24
+usemtl monocrome/white
+f  193/153/1  194/147/1  195/148/1  196/154/1
+usemtl monocrome/white
+f  197/5/2  195/6/2  194/7/2  198/8/2
+usemtl monocrome/white
+f  198/150/3  194/149/3  193/155/3  199/156/3
+usemtl monocrome/white
+f  200/155/4  196/156/4  195/150/4  197/149/4
+usemtl monocrome/white
+f  199/7/5  193/8/5  196/5/5  200/6/5
+usemtl monocrome/white
+f  200/157/6  197/151/6  198/152/6  199/158/6
+
+o entity0_brush25
+usemtl monocrome/white
+f  201/159/1  202/153/1  203/154/1  204/160/1
+usemtl monocrome/white
+f  205/6/2  203/5/2  202/8/2  206/7/2
+usemtl monocrome/white
+f  206/156/3  202/155/3  201/161/3  207/162/3
+usemtl monocrome/white
+f  208/161/4  204/162/4  203/156/4  205/155/4
+usemtl monocrome/white
+f  207/7/5  201/8/5  204/5/5  208/6/5
+usemtl monocrome/white
+f  208/163/6  205/157/6  206/158/6  207/164/6
+
+o entity0_brush26
+usemtl monocrome/white
+f  209/165/1  210/159/1  211/160/1  212/166/1
+usemtl monocrome/white
+f  213/6/2  211/5/2  210/8/2  214/7/2
+usemtl monocrome/white
+f  214/162/3  210/161/3  209/167/3  215/168/3
+usemtl monocrome/white
+f  216/167/4  212/168/4  211/162/4  213/161/4
+usemtl monocrome/white
+f  215/7/5  209/8/5  212/5/5  216/6/5
+usemtl monocrome/white
+f  216/169/6  213/163/6  214/164/6  215/170/6
+
+o entity0_brush27
+usemtl monocrome/white
+f  217/8/1  218/165/1  219/166/1  220/5/1
+usemtl monocrome/white
+f  221/6/2  219/5/2  218/8/2  222/7/2
+usemtl monocrome/white
+f  222/168/3  218/167/3  217/8/3  223/7/3
+usemtl monocrome/white
+f  224/8/4  220/7/4  219/168/4  221/167/4
+usemtl monocrome/white
+f  223/7/5  217/8/5  220/5/5  224/6/5
+usemtl monocrome/white
+f  224/6/6  221/169/6  222/170/6  223/7/6
+
+o entity0_brush28
+usemtl monocrome/white
+f  225/15/1  226/16/1  227/13/1  228/14/1
+usemtl monocrome/white
+f  229/6/2  227/5/2  226/8/2  230/7/2
+usemtl monocrome/white
+f  230/171/3  226/172/3  225/173/3  231/174/3
+usemtl monocrome/white
+f  232/173/4  228/174/4  227/171/4  229/172/4
+usemtl monocrome/white
+f  231/7/5  225/8/5  228/5/5  232/6/5
+usemtl monocrome/white
+f  232/3/6  229/4/6  230/1/6  231/2/6
+
+o entity0_brush29
+usemtl monocrome/white
+f  233/16/1  234/22/1  235/21/1  236/13/1
+usemtl monocrome/white
+f  237/6/2  235/5/2  234/8/2  238/7/2
+usemtl monocrome/white
+f  238/175/3  234/176/3  233/172/3  239/171/3
+usemtl monocrome/white
+f  240/172/4  236/171/4  235/175/4  237/176/4
+usemtl monocrome/white
+f  239/7/5  233/8/5  236/5/5  240/6/5
+usemtl monocrome/white
+f  240/4/6  237/18/6  238/17/6  239/1/6
+
+o entity0_brush30
+usemtl monocrome/white
+f  241/22/1  242/28/1  243/27/1  244/21/1
+usemtl monocrome/white
+f  245/6/2  243/5/2  242/8/2  246/7/2
+usemtl monocrome/white
+f  246/177/3  242/178/3  241/176/3  247/175/3
+usemtl monocrome/white
+f  248/176/4  244/175/4  243/177/4  245/178/4
+usemtl monocrome/white
+f  247/7/5  241/8/5  244/5/5  248/6/5
+usemtl monocrome/white
+f  248/18/6  245/24/6  246/23/6  247/17/6
+
+o entity0_brush31
+usemtl monocrome/white
+f  249/28/1  250/34/1  251/33/1  252/27/1
+usemtl monocrome/white
+f  253/5/2  251/6/2  250/7/2  254/8/2
+usemtl monocrome/white
+f  254/179/3  250/180/3  249/178/3  255/177/3
+usemtl monocrome/white
+f  256/178/4  252/177/4  251/179/4  253/180/4
+usemtl monocrome/white
+f  255/7/5  249/8/5  252/5/5  256/6/5
+usemtl monocrome/white
+f  256/24/6  253/30/6  254/29/6  255/23/6
+
+o entity0_brush32
+usemtl monocrome/white
+f  257/34/1  258/52/1  259/51/1  260/33/1
+usemtl monocrome/white
+f  261/6/2  259/5/2  258/8/2  262/7/2
+usemtl monocrome/white
+f  262/181/3  258/182/3  257/180/3  263/179/3
+usemtl monocrome/white
+f  264/180/4  260/179/4  259/181/4  261/182/4
+usemtl monocrome/white
+f  263/7/5  257/8/5  260/5/5  264/6/5
+usemtl monocrome/white
+f  264/30/6  261/48/6  262/47/6  263/29/6
+
+o entity0_brush33
+usemtl monocrome/white
+f  265/52/1  266/45/1  267/44/1  268/51/1
+usemtl monocrome/white
+f  269/6/2  267/5/2  266/8/2  270/7/2
+usemtl monocrome/white
+f  270/183/3  266/184/3  265/182/3  271/181/3
+usemtl monocrome/white
+f  272/182/4  268/181/4  267/183/4  269/184/4
+usemtl monocrome/white
+f  271/7/5  265/8/5  268/5/5  272/6/5
+usemtl monocrome/white
+f  272/48/6  269/37/6  270/36/6  271/47/6
+
+o entity0_brush34
+usemtl monocrome/white
+f  273/45/1  274/46/1  275/43/1  276/44/1
+usemtl monocrome/white
+f  277/6/2  275/5/2  274/8/2  278/7/2
+usemtl monocrome/white
+f  278/185/3  274/186/3  273/184/3  279/183/3
+usemtl monocrome/white
+f  280/184/4  276/183/4  275/185/4  277/186/4
+usemtl monocrome/white
+f  279/7/5  273/8/5  276/5/5  280/6/5
+usemtl monocrome/white
+f  280/37/6  277/38/6  278/35/6  279/36/6
+
+o entity0_brush35
+usemtl monocrome/white
+f  281/46/1  282/58/1  283/57/1  284/43/1
+usemtl monocrome/white
+f  285/5/2  283/6/2  282/7/2  286/8/2
+usemtl monocrome/white
+f  286/187/3  282/188/3  281/186/3  287/185/3
+usemtl monocrome/white
+f  288/186/4  284/185/4  283/187/4  285/188/4
+usemtl monocrome/white
+f  287/7/5  281/8/5  284/5/5  288/6/5
+usemtl monocrome/white
+f  288/38/6  285/54/6  286/53/6  287/35/6
+
+o entity0_brush36
+usemtl monocrome/white
+f  289/58/1  290/94/1  291/93/1  292/57/1
+usemtl monocrome/white
+f  293/6/2  291/5/2  290/8/2  294/7/2
+usemtl monocrome/white
+f  294/189/3  290/190/3  289/188/3  295/187/3
+usemtl monocrome/white
+f  296/188/4  292/187/4  291/189/4  293/190/4
+usemtl monocrome/white
+f  295/7/5  289/8/5  292/5/5  296/6/5
+usemtl monocrome/white
+f  296/54/6  293/90/6  294/89/6  295/53/6
+
+o entity0_brush37
+usemtl monocrome/white
+f  297/94/1  298/100/1  299/99/1  300/93/1
+usemtl monocrome/white
+f  301/6/2  299/5/2  298/8/2  302/7/2
+usemtl monocrome/white
+f  302/191/3  298/192/3  297/190/3  303/189/3
+usemtl monocrome/white
+f  304/190/4  300/189/4  299/191/4  301/192/4
+usemtl monocrome/white
+f  303/7/5  297/8/5  300/5/5  304/6/5
+usemtl monocrome/white
+f  304/90/6  301/96/6  302/95/6  303/89/6
+
+o entity0_brush38
+usemtl monocrome/white
+f  305/100/1  306/106/1  307/105/1  308/99/1
+usemtl monocrome/white
+f  309/6/2  307/5/2  306/8/2  310/7/2
+usemtl monocrome/white
+f  310/193/3  306/194/3  305/192/3  311/191/3
+usemtl monocrome/white
+f  312/192/4  308/191/4  307/193/4  309/194/4
+usemtl monocrome/white
+f  311/7/5  305/8/5  308/5/5  312/6/5
+usemtl monocrome/white
+f  312/96/6  309/102/6  310/101/6  311/95/6
+
+o entity0_brush39
+usemtl monocrome/white
+f  313/106/1  314/82/1  315/81/1  316/105/1
+usemtl monocrome/white
+f  317/5/2  315/6/2  314/7/2  318/8/2
+usemtl monocrome/white
+f  318/195/3  314/196/3  313/194/3  319/193/3
+usemtl monocrome/white
+f  320/194/4  316/193/4  315/195/4  317/196/4
+usemtl monocrome/white
+f  319/7/5  313/8/5  316/5/5  320/6/5
+usemtl monocrome/white
+f  320/102/6  317/78/6  318/77/6  319/101/6
+
+o entity0_brush40
+usemtl monocrome/white
+f  321/82/1  322/76/1  323/75/1  324/81/1
+usemtl monocrome/white
+f  325/6/2  323/5/2  322/8/2  326/7/2
+usemtl monocrome/white
+f  326/197/3  322/198/3  321/196/3  327/195/3
+usemtl monocrome/white
+f  328/196/4  324/195/4  323/197/4  325/198/4
+usemtl monocrome/white
+f  327/7/5  321/8/5  324/5/5  328/6/5
+usemtl monocrome/white
+f  328/78/6  325/72/6  326/71/6  327/77/6
+
+o entity0_brush41
+usemtl monocrome/white
+f  329/76/1  330/69/1  331/68/1  332/75/1
+usemtl monocrome/white
+f  333/6/2  331/5/2  330/8/2  334/7/2
+usemtl monocrome/white
+f  334/199/3  330/200/3  329/198/3  335/197/3
+usemtl monocrome/white
+f  336/198/4  332/197/4  331/199/4  333/200/4
+usemtl monocrome/white
+f  335/7/5  329/8/5  332/5/5  336/6/5
+usemtl monocrome/white
+f  336/72/6  333/61/6  334/60/6  335/71/6
+
+o entity0_brush42
+usemtl monocrome/white
+f  337/69/1  338/70/1  339/67/1  340/68/1
+usemtl monocrome/white
+f  341/6/2  339/5/2  338/8/2  342/7/2
+usemtl monocrome/white
+f  342/201/3  338/202/3  337/200/3  343/199/3
+usemtl monocrome/white
+f  344/200/4  340/199/4  339/201/4  341/202/4
+usemtl monocrome/white
+f  343/7/5  337/8/5  340/5/5  344/6/5
+usemtl monocrome/white
+f  344/61/6  341/62/6  342/59/6  343/60/6
+
+o entity0_brush43
+usemtl monocrome/white
+f  345/70/1  346/88/1  347/87/1  348/67/1
+usemtl monocrome/white
+f  349/5/2  347/6/2  346/7/2  350/8/2
+usemtl monocrome/white
+f  350/203/3  346/204/3  345/202/3  351/201/3
+usemtl monocrome/white
+f  352/202/4  348/201/4  347/203/4  349/204/4
+usemtl monocrome/white
+f  351/7/5  345/8/5  348/5/5  352/6/5
+usemtl monocrome/white
+f  352/62/6  349/84/6  350/83/6  351/59/6
+
+o entity0_brush44
+usemtl monocrome/white
+f  353/88/1  354/134/1  355/133/1  356/87/1
+usemtl monocrome/white
+f  357/6/2  355/5/2  354/8/2  358/7/2
+usemtl monocrome/white
+f  358/205/3  354/206/3  353/204/3  359/203/3
+usemtl monocrome/white
+f  360/204/4  356/203/4  355/205/4  357/206/4
+usemtl monocrome/white
+f  359/7/5  353/8/5  356/5/5  360/6/5
+usemtl monocrome/white
+f  360/84/6  357/130/6  358/129/6  359/83/6
+
+o entity0_brush45
+usemtl monocrome/white
+f  361/134/1  362/140/1  363/139/1  364/133/1
+usemtl monocrome/white
+f  365/6/2  363/5/2  362/8/2  366/7/2
+usemtl monocrome/white
+f  366/207/3  362/208/3  361/206/3  367/205/3
+usemtl monocrome/white
+f  368/206/4  364/205/4  363/207/4  365/208/4
+usemtl monocrome/white
+f  367/7/5  361/8/5  364/5/5  368/6/5
+usemtl monocrome/white
+f  368/130/6  365/136/6  366/135/6  367/129/6
+
+o entity0_brush46
+usemtl monocrome/white
+f  369/140/1  370/146/1  371/145/1  372/139/1
+usemtl monocrome/white
+f  373/6/2  371/5/2  370/8/2  374/7/2
+usemtl monocrome/white
+f  374/209/3  370/210/3  369/208/3  375/207/3
+usemtl monocrome/white
+f  376/208/4  372/207/4  371/209/4  373/210/4
+usemtl monocrome/white
+f  375/7/5  369/8/5  372/5/5  376/6/5
+usemtl monocrome/white
+f  376/136/6  373/142/6  374/141/6  375/135/6
+
+o entity0_brush47
+usemtl monocrome/white
+f  377/146/1  378/152/1  379/151/1  380/145/1
+usemtl monocrome/white
+f  381/5/2  379/6/2  378/7/2  382/8/2
+usemtl monocrome/white
+f  382/211/3  378/212/3  377/210/3  383/209/3
+usemtl monocrome/white
+f  384/210/4  380/209/4  379/211/4  381/212/4
+usemtl monocrome/white
+f  383/7/5  377/8/5  380/5/5  384/6/5
+usemtl monocrome/white
+f  384/142/6  381/148/6  382/147/6  383/141/6
+
+o entity0_brush48
+usemtl monocrome/white
+f  385/152/1  386/158/1  387/157/1  388/151/1
+usemtl monocrome/white
+f  389/6/2  387/5/2  386/8/2  390/7/2
+usemtl monocrome/white
+f  390/213/3  386/214/3  385/212/3  391/211/3
+usemtl monocrome/white
+f  392/212/4  388/211/4  387/213/4  389/214/4
+usemtl monocrome/white
+f  391/7/5  385/8/5  388/5/5  392/6/5
+usemtl monocrome/white
+f  392/148/6  389/154/6  390/153/6  391/147/6
+
+o entity0_brush49
+usemtl monocrome/white
+f  393/158/1  394/164/1  395/163/1  396/157/1
+usemtl monocrome/white
+f  397/6/2  395/5/2  394/8/2  398/7/2
+usemtl monocrome/white
+f  398/215/3  394/216/3  393/214/3  399/213/3
+usemtl monocrome/white
+f  400/214/4  396/213/4  395/215/4  397/216/4
+usemtl monocrome/white
+f  399/7/5  393/8/5  396/5/5  400/6/5
+usemtl monocrome/white
+f  400/154/6  397/160/6  398/159/6  399/153/6
+
+o entity0_brush50
+usemtl monocrome/white
+f  401/164/1  402/170/1  403/169/1  404/163/1
+usemtl monocrome/white
+f  405/6/2  403/5/2  402/8/2  406/7/2
+usemtl monocrome/white
+f  406/217/3  402/218/3  401/216/3  407/215/3
+usemtl monocrome/white
+f  408/216/4  404/215/4  403/217/4  405/218/4
+usemtl monocrome/white
+f  407/7/5  401/8/5  404/5/5  408/6/5
+usemtl monocrome/white
+f  408/160/6  405/166/6  406/165/6  407/159/6
+
+o entity0_brush51
+usemtl monocrome/white
+f  409/170/1  410/7/1  411/6/1  412/169/1
+usemtl monocrome/white
+f  413/5/2  411/6/2  410/7/2  414/8/2
+usemtl monocrome/white
+f  414/6/3  410/5/3  409/218/3  415/217/3
+usemtl monocrome/white
+f  416/218/4  412/217/4  411/6/4  413/5/4
+usemtl monocrome/white
+f  415/7/5  409/8/5  412/5/5  416/6/5
+usemtl monocrome/white
+f  416/166/6  413/5/6  414/8/6  415/165/6
+
+o entity0_brush52
+usemtl monocrome/white
+f  417/7/1  418/112/1  419/111/1  420/6/1
+usemtl monocrome/white
+f  421/6/2  419/5/2  418/8/2  422/7/2
+usemtl monocrome/white
+f  422/219/3  418/220/3  417/5/3  423/6/3
+usemtl monocrome/white
+f  424/5/4  420/6/4  419/219/4  421/220/4
+usemtl monocrome/white
+f  423/7/5  417/8/5  420/5/5  424/6/5
+usemtl monocrome/white
+f  424/5/6  421/108/6  422/107/6  423/8/6
+
+o entity0_brush53
+usemtl monocrome/white
+f  425/112/1  426/118/1  427/117/1  428/111/1
+usemtl monocrome/white
+f  429/6/2  427/5/2  426/8/2  430/7/2
+usemtl monocrome/white
+f  430/221/3  426/222/3  425/220/3  431/219/3
+usemtl monocrome/white
+f  432/220/4  428/219/4  427/221/4  429/222/4
+usemtl monocrome/white
+f  431/7/5  425/8/5  428/5/5  432/6/5
+usemtl monocrome/white
+f  432/108/6  429/114/6  430/113/6  431/107/6
+
+o entity0_brush54
+usemtl monocrome/white
+f  433/118/1  434/124/1  435/123/1  436/117/1
+usemtl monocrome/white
+f  437/6/2  435/5/2  434/8/2  438/7/2
+usemtl monocrome/white
+f  438/223/3  434/224/3  433/222/3  439/221/3
+usemtl monocrome/white
+f  440/222/4  436/221/4  435/223/4  437/224/4
+usemtl monocrome/white
+f  439/7/5  433/8/5  436/5/5  440/6/5
+usemtl monocrome/white
+f  440/114/6  437/120/6  438/119/6  439/113/6
+
+o entity0_brush55
+usemtl monocrome/white
+f  441/124/1  442/125/1  443/126/1  444/123/1
+usemtl monocrome/white
+f  445/5/2  443/6/2  442/7/2  446/8/2
+usemtl monocrome/white
+f  446/128/3  442/127/3  441/224/3  447/223/3
+usemtl monocrome/white
+f  448/224/4  444/223/4  443/128/4  445/127/4
+usemtl monocrome/white
+f  447/7/5  441/8/5  444/5/5  448/6/5
+usemtl monocrome/white
+f  448/120/6  445/126/6  446/125/6  447/119/6
+

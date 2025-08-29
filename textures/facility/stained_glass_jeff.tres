@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://bfu6mjxvyq7tp"]
+
+[ext_resource type="Texture2D" uid="uid://brp8lw0v564u2" path="res://textures/stained_glass_jeff.png" id="1_kbscm"]
+[ext_resource type="Texture2D" uid="uid://dav0txljq1r0j" path="res://textures/stained_glass_jeff_glow.png" id="2_f6c0j"]
+
+[resource]
+albedo_texture = ExtResource("1_kbscm")
+metallic_specular = 0.0
+emission = Color(0.964706, 0.839216, 0.741176, 1)
+emission_energy_multiplier = 0.01
+emission_texture = ExtResource("2_f6c0j")
+texture_filter = 2

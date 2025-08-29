@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://chhgh144encov"]
 
 [ext_resource type="Script" uid="uid://dkp1wu4d014wn" path="res://entities/object.gd" id="1_ls4fa"]
-[ext_resource type="Texture2D" uid="uid://b6q632r6fqwty" path="res://textures/floor_tile2.png" id="2_ayagq"]
+[ext_resource type="Texture2D" uid="uid://bc17wja5e4man" path="res://textures/facility/floor_tile2.png" id="2_ayagq"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_sh8mm"]
 
