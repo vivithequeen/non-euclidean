@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b2y6s6hg6gjma"]
 
-[ext_resource type="PackedScene" uid="uid://c5yfi3lklqibi" path="res://levels/level_2/level_2.tscn" id="2_6tvrh"]
+[ext_resource type="PackedScene" uid="uid://d4eurqqsm3lb4" path="res://levels/level_1/level_1.tscn" id="1_hvuti"]
 
 [sub_resource type="Environment" id="Environment_6tvrh"]
 background_color = Color(0.099986, 0.099986, 0.0999859, 1)
@@ -21,8 +21,7 @@ adjustment_saturation = 1.1
 
 [node name="level_manager" type="Node3D"]
 
-[node name="Level2" parent="." instance=ExtResource("2_6tvrh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27, -16.5, -6.5)
-
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_6tvrh")
+
+[node name="Level1" parent="." instance=ExtResource("1_hvuti")]

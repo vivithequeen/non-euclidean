@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://d3k0vtykbuon3"]
-
-[resource]
-metallic_specular = 0.0
-heightmap_scale = 5.952
-texture_filter = 0

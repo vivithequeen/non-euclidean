@@ -1,8 +1,8 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cdsp347urn5sd"]
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dtt6f444bwqo0"]
 
-[ext_resource type="Texture2D" uid="uid://daglfwcaq11mu" path="res://textures/wall.png" id="1_2fyv5"]
+[ext_resource type="Texture2D" uid="uid://17im6qcidt13" path="res://textures/facility/wall.png" id="1_5fuxw"]
 
 [resource]
-albedo_texture = ExtResource("1_2fyv5")
+albedo_texture = ExtResource("1_5fuxw")
 metallic_specular = 0.0
 texture_filter = 2
