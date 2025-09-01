@@ -1,0 +1,18 @@
+[gd_resource type="Environment" format=3 uid="uid://bvp2bem6monty"]
+
+[resource]
+background_color = Color(0.099986, 0.099986, 0.0999859, 1)
+ambient_light_source = 1
+ambient_light_color = Color(1, 1, 1, 1)
+tonemap_mode = 2
+ssr_enabled = true
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_use_occlusion = true
+glow_enabled = true
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.075
+adjustment_enabled = true
+adjustment_brightness = 1.1
+adjustment_contrast = 1.05
+adjustment_saturation = 1.05

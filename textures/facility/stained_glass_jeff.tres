@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://p5p6p6j4o0sh"]
+
+[ext_resource type="Texture2D" uid="uid://g06pphj6c5cv" path="res://textures/facility/stained_glass_jeff.png" id="1_kkfui"]
+
+[resource]
+albedo_texture = ExtResource("1_kkfui")
+metallic_specular = 0.0
+texture_filter = 2

@@ -3,8 +3,8 @@
 [ext_resource type="Script" uid="uid://cwibxklknwfhh" path="res://entities/switch.gd" id="1_ouphh"]
 [ext_resource type="Shader" uid="uid://vmt614pt7qwy" path="res://resources/shaders/highlight.gdshader" id="2_0b2yu"]
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_2i5xl"]
-points = PackedVector3Array(-0.0344424, -0.0147, 0.262192, 0.195045, -0.013592, 0.0797316, -0.204257, 0.0116145, -0.385618, -0.119191, 0.211313, -0.00215706, 0.168132, 0.1918, -0.33704, 0.196924, -0.0147, -0.381592, 0.153218, 0.0957031, 0.171565, -0.166589, 0.1918, -0.33704, -0.185111, -0.0145938, 0.131193, 0.184727, 0.200808, -0.154222, -0.0465521, 0.0957031, 0.255679, 0.111133, 0.211313, -0.00215706, -0.183184, 0.0957031, 0.0979896, -0.195381, -0.0147, -0.381592, 0.116021, 0.2162, -0.330268, -0.183184, 0.200808, -0.154222, 0.0359852, -0.0147, 0.262192, 0.0480548, 0.0957031, 0.255679, -0.1213, 0.213253, -0.32335, -0.151675, 0.0957031, 0.171565, 0.146619, -0.0147, 0.181719, 0.174251, 0.0957031, 0.140014, -0.144681, -0.0143867, 0.191057, -0.193055, -0.0133281, 0.0893736, 0.184727, 0.0957031, 0.0874506, -0.172668, 0.0957031, 0.140014, 0.185152, -0.0136601, 0.12965, 0.121669, 0.0957031, 0.203116, -0.120126, 0.0957031, 0.203116, 0.126497, -0.0147, 0.201821, -0.0638436, -0.013317, 0.24838, 0.0646729, -0.0121214, 0.245157)
+[sub_resource type="BoxShape3D" id="BoxShape3D_0b2yu"]
+size = Vector3(0.5, 0.25, 0.625)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_nldlc"]
 render_priority = 0
@@ -222,8 +222,8 @@ script = ExtResource("1_ouphh")
 animationPlayer = NodePath("AnimationPlayer")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
-shape = SubResource("ConvexPolygonShape3D_2i5xl")
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0.1875, -0.09375)
+shape = SubResource("BoxShape3D_0b2yu")
 
 [node name="Lever_Base" type="MeshInstance3D" parent="."]
 transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 0, 0, 0)

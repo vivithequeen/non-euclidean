@@ -1,27 +1,20 @@
-[gd_scene load_steps=3 format=3 uid="uid://b2y6s6hg6gjma"]
+[gd_scene load_steps=5 format=3 uid="uid://b2y6s6hg6gjma"]
 
 [ext_resource type="PackedScene" uid="uid://d4eurqqsm3lb4" path="res://levels/level_1/level_1.tscn" id="1_hvuti"]
-
-[sub_resource type="Environment" id="Environment_6tvrh"]
-background_color = Color(0.099986, 0.099986, 0.0999859, 1)
-ambient_light_source = 1
-ambient_light_color = Color(1, 1, 1, 1)
-tonemap_mode = 2
-ssr_enabled = true
-ssao_enabled = true
-ssil_enabled = true
-sdfgi_use_occlusion = true
-glow_enabled = true
-volumetric_fog_enabled = true
-volumetric_fog_density = 0.075
-adjustment_enabled = true
-adjustment_brightness = 1.2
-adjustment_contrast = 1.1
-adjustment_saturation = 1.1
+[ext_resource type="Environment" uid="uid://bvp2bem6monty" path="res://enviorment.tres" id="1_k4541"]
+[ext_resource type="PackedScene" uid="uid://c5yfi3lklqibi" path="res://levels/level_2/level_2.tscn" id="2_6tvrh"]
+[ext_resource type="LightmapGIData" uid="uid://v8g8a7qesx1k" path="res://levels/test_level/main.lmbake" id="4_ce4gc"]
 
 [node name="level_manager" type="Node3D"]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_6tvrh")
+environment = ExtResource("1_k4541")
 
 [node name="Level1" parent="." instance=ExtResource("1_hvuti")]
+
+[node name="Level2" parent="." instance=ExtResource("2_6tvrh")]
+transform = Transform3D(1.31134e-07, 0, 1, 0, 1, 0, -1, 0, 1.31134e-07, 16, 6, 72)
+
+[node name="LightmapGI" type="LightmapGI" parent="."]
+interior = true
+light_data = ExtResource("4_ce4gc")
